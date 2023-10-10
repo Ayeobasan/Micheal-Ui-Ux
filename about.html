@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georama:wght@400;500;600;700&family=Syncopate:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="nav-wrapper">
+      <div class="nav">
+        <div
+          class="logo-icon clickable-section"
+          onclick="navigateToPage('index.html')"
+        >
+          <img src="/assets/logo.svg" width="50px" alt="logo" />
+          <p class="logo-text">
+            MICHAEL OLAMIDE/ <span class="page-name">QUID</span>
+          </p>
+        </div>
+        <div id="mySidebar" class="sidebar">
+          <div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <a href="index.html">HOME</a>
+            <a href="projects.html">WORKS</a>
+            <a href="about.html">ABOUT ME</a>
+            <a href="#">GAME PORTFOLIO</a>
+          </div>
+          <div class="menu-socials">
+            <img src="./assets/logo-linkedin-nav.svg" alt="linkedin" />
+            <img src="./assets/logo-twitter-nav.svg" alt="twitter" />
+            <img src="./assets/logo-behance-nav.svg" alt="behance" />
+            <img src="./assets/logo-mail-nav.svg" alt="mail" />
+          </div>
+          <div class="menu-text">
+            <p>&copy; 2023 All Rights Reserved. Michael Olamide</p>
+          </div>
+        </div>
+
+        <div id="main">
+          <button class="openbtn" onclick="openNav()">&#9776;</button>
+        </div>
+      </div>
+    </nav>
+
+    <main class="intro-main">
+      <div class="intro-head">
+        <div>
+          <p class="intro">HELLO,👋</p>
+        </div>
+
+        <div class="img-head">
+          <h1>
+            I'm Michael Olamide, a Product Designer based in Lagos, Nigeria
+            <span>
+              <img
+                src="./assets/flag-nigeria.svg"
+                alt="Nigerian flag"
+                width="50px"
+              />
+            </span>
+          </h1>
+          <div class="page-img">
+            <img
+              src="./assets/about-img.png"
+              width="600px"
+              alt="An image of Michael Olamide"
+            />
+            <div class="gradient"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-body">
+        <p class="body-text">
+          I am passionate about building sustainable products that yields
+          incredible user experiences, and using these experiences to affect the
+          lives of the users positively.
+        </p>
+        <p class="body-text">
+          Having the right mix of creativity, love and passion has led me to
+          finding the right path that greatly defines me, my future and also
+          aligns with it. That chosen path is what i am today, and i have taken
+          as a career - <strong>Product Design.</strong>
+        </p>
+        <p class="body-text">
+          In the last few years, I have worked on various projects across
+          different industry, taking different roles and positions,
+          collaborating and impacting teams positively, through
+          <strong> communication, collaboration and leadership. </strong>
+        </p>
+        <p class="body-text">
+          Outside of my design life, and beyond working as a designer, listening
+          to music is one thing i enjoyed doing most. Also, i enjoy reading and
+          travelling, learning and understand different culture, lifestyles,
+          food, and more importantly, people
+        </p>
+        <p class="body-text">
+          One of my goals as a person and a designer, is to impact the world
+          positively years from now, building safe places and environment for
+          everyone, through design and leadership.
+        </p>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-details">
+        <p class="footer-text">HIT ME UP, LET's WORK TOGETHER</p>
+        <p class="email">
+          olumichael1998@gmail.com
+          <span> <img src="./assets/copy-icon.svg" alt="copy-icon" /> </span>
+        </p>
+      </div>
+      <div class="socials">
+        <p>
+          <span><img src="./assets/logo-twitter.svg" alt="twitter logo" /></span
+          >TWITTER
+        </p>
+        <p>
+          <span
+            ><img src="./assets/logo-linkedin.svg" alt="linkedin logo" /></span
+          >LINKEDIN
+        </p>
+        <p>
+          <span><img src="./assets/logo-behance.svg" alt="behance logo" /></span
+          >BEHANCE
+        </p>
+      </div>
+    </footer>
+
+    <!-- javascript -->
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "500px";
+        document.getElementById("main").style.marginLeft = "500px";
+      }
+
+      /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+
+      function navigateToPage(pageURL) {
+        window.location.href = pageURL;
+      }
+    </script>
+  </body>
+</html>

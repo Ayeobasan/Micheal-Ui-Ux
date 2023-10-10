@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musiq</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georama:wght@400;500;600;700&family=Syncopate:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="nav-wrapper">
+      <div class="nav">
+        <div
+          class="logo-icon clickable-section"
+          onclick="navigateToPage('index.html')"
+        >
+          <img src="/assets/logo.svg" width="50px" alt="logo" />
+          <p class="logo-text">
+            MICHAEL OLAMIDE/ <span class="page-name">Musiq</span>
+          </p>
+        </div>
+        <div id="mySidebar" class="sidebar">
+          <div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <a href="index.html">HOME</a>
+            <a href="projects.html">WORKS</a>
+            <a href="about.html">ABOUT ME</a>
+            <a href="#">GAME PORTFOLIO</a>
+          </div>
+          <div class="menu-socials">
+            <img src="./assets/logo-linkedin-nav.svg" alt="linkedin" />
+            <img src="./assets/logo-twitter-nav.svg" alt="twitter" />
+            <img src="./assets/logo-behance-nav.svg" alt="behance" />
+            <img src="./assets/logo-mail-nav.svg" alt="mail" />
+          </div>
+          <div class="menu-text">
+            <p>&copy; 2023 All Rights Reserved. Michael Olamide</p>
+          </div>
+        </div>
+
+        <div id="main">
+          <button class="openbtn" onclick="openNav()">&#9776;</button>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="quid-div">
+        <div class="quid-app">
+          <div class="hero-text">
+            <div class="quid-heading">
+              <h1 style="width: 900px">MUSIQ Streaming App</h1>
+              <p>Cross-Platform music application streaming experience</p>
+            </div>
+            <div class="quid-details">
+              <div class="role">
+                <p class="job">My Role</p>
+                <p class="jd">Product Designer</p>
+              </div>
+              <div class="industry">
+                <p class="job">Industry</p>
+                <p class="jd">Music</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-img">
+            <img src="./assets/project-header.png" alt="" width="350px" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Body content -->
+      <section class="body-details">
+        <div class="project-body">
+          <h3>Introduction</h3>
+          <p>
+            Musiq is an mobile and desktop music streaming application that
+            offers seamless streaming experience for users from different part
+            of the world.
+          </p>
+          <h3>Brief and Scope</h3>
+          <p>
+            Music generally can be so emotional. People often use music as a
+            means to communicate and express their emotions, feelings, and
+            excitements either personally, or to other people. In as much as
+            Music is widely appreciated worldwide and widely engaged with, most
+            or few users lack the ability to share and listen to their favorite
+            music with other people, an unsatisfying experience when listening
+            to music.
+          </p>
+          <h3>My Role</h3>
+          <p>
+            I was the Product Designer on this project. My roles was tasked to
+            come out with a clear concept and approach of how the product can be
+            functional, user friendly and have a good user conversion rate,
+            through effective UX strategies.
+          </p>
+        </div>
+      </section>
+      <section class="design-process">
+        <div>
+          <h3>Design Process</h3>
+          <img
+            src="./assets/design-process.png"
+            alt="design process details"
+            class="center"
+          />
+        </div>
+      </section>
+      <div class="border"></div>
+      <section class="product-research">
+        <div>
+          <h3>Research Discovery/Insights Generated</h3>
+          <p>
+            Everyone appreciates music but not everyone loves it. Different
+            people listen to music for different purposes. Some express how they
+            feel, and communicate their feelings, while some only engage just
+            for the listening experience. Having speaking 8 users to learn about
+            thier listening experiences, this research revealed two categories
+            of users: Music Lovers and Music listeners.
+          </p>
+        </div>
+      </section>
+      <section class="painpoints">
+        <div>
+          <h3>Painpoints gathered</h3>
+          <p>
+            I put together an understanding of the different pain points of the
+            users gathered, from different participants i spoke to. Although,
+            some of the participants made the same points, of which i had to put
+            together.
+          </p>
+        </div>
+        <div class="painpoints-block">
+          <div>
+            <h4>Aesthetics</h4>
+            <div class="border3"></div>
+            <ul class="a">
+              <li>Unappealing user interfaces/experiences</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Availaibility</h4>
+            <div class="border3"></div>
+            <ul class="a">
+              <li>Absence of Lyrics to songs</li>
+              <li>Absence of In App Library for listed features</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Accessibility</h4>
+            <div class="border3"></div>
+            <ul class="a">
+              <li>Unavailability of cross platform experience i.e Desktop</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="painpoints">
+        <h3>Screenshots of some feedbacks</h3>
+        <div>
+          <div class="reviews-screenshot">
+            <img src="./assets/musiq-app/image 65.png" alt="app reviews" />
+            <img src="./assets/musiq-app/image 66.png" alt="app reviews" />
+          </div>
+          <div class="reviews-screenshot">
+            <img src="./assets/musiq-app/image 67.png" alt="app reviews" />
+          </div>
+        </div>
+      </section>
+      <div class="border2"></div>
+      <section class="c-audit">
+        <div>
+          <h3>Competitive Audit</h3>
+          <p>
+            To further validate the research frameworks, i conducted a prelimary
+            competitive audit of other streaming platforms to better understand
+            how they are able to shape the streaming experiences of thier
+            products, skimmed through user feedbacks and ratings on playstores
+            to better understand user needs/wants. The goals was to use both the
+            strength and weakness of these platforms as an advantage, to connect
+            both user and business goals together.
+          </p>
+        </div>
+        <div class="caudit-img">
+          <img
+            src="./assets/musiq-app/CA.png"
+            alt="competitive audit"
+            class="center"
+          />
+        </div>
+      </section>
+      <!-- user personas -->
+      <section class="user-personas heading4">
+        <h4>User Personas</h4>
+        <div>
+          <img
+            src="./assets/musiq-app/Frame 1000001449.png"
+            alt="user personas"
+          />
+          <img
+            src="./assets/musiq-app/Frame 1000001449-1.png"
+            alt="user personas"
+          />
+        </div>
+      </section>
+      <!-- product goals -->
+      <section class="product-goals">
+        <div class="border4"></div>
+        <div class="product-goals-details">
+          <div class="heading4">
+            <h4>Product Goals</h4>
+            <p>
+              Building products that solves varieties of user needs, most
+              especially for a music streaming platform that shapes the
+              listening experiences of its users through the implementation of
+              core features, will continually encourage users to love music, and
+              stay consistent using the such platforms - Goal of every products.
+            </p>
+          </div>
+
+          <div class="goals new">
+            <div>
+              <h4>User Goals</h4>
+              <ul class="b">
+                <li>
+                  <img
+                    src="./assets/ph_push-pin-fill.svg"
+                    alt="push pin"
+                    width="25px"
+                  />
+                  <div>
+                    User Interface built with users on mind:
+                    <strong
+                      >Designing any engaging interfaces with users in mind,
+                      using clear, and distincts elements across all design
+                      layouts</strong
+                    >
+                    -
+                    <strong style="color: #aa31f5">
+                      Designing for accessibility and inclusivity
+                    </strong>
+                  </div>
+                </li>
+                <li>
+                  <img
+                    src="./assets/ph_push-pin-fill.svg"
+                    alt="push pin"
+                    width="25px"
+                  />
+                  <div>
+                    Curated Library List:
+                    <strong
+                      >Staying organised is the goal of every user. A curated
+                      library that organises the lists of songs created or saved
+                      by users, will help users find thier needs at ease without
+                      experiencing any frustrations</strong
+                    >
+                    -
+                    <strong style="color: #aa31f5">
+                      Accessibility and easeness to features
+                    </strong>
+                  </div>
+                </li>
+                <li>
+                  <img
+                    src="./assets/ph_push-pin-fill.svg"
+                    alt="push pin"
+                    width="25px"
+                  />
+                  <div>
+                    In App Extensive Features:
+                    <strong
+                      >Designing an engaging interfaces with users in mind,
+                      using clear, and distincts elements across all design
+                      layouts</strong
+                    >
+                    -
+                    <strong style="color: #aa31f5">
+                      Designing for accessibility and inclusivity
+                    </strong>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4>Business Goals</h4>
+              <ul class="b">
+                <li>
+                  <img
+                    src="./assets/ph_push-pin-fill.svg"
+                    alt="push pin"
+                    width="25px"
+                  />
+                  <div>
+                    Premium Paid Features:
+                    <strong>
+                      In app features available only on premium subscription.
+                      This further generates revenue for product sustainability
+                    </strong>
+                  </div>
+                </li>
+                <li>
+                  <img
+                    src="./assets/ph_push-pin-fill.svg"
+                    alt="push pin"
+                    width="25px"
+                  />
+                  <div>
+                    In App Ads:
+                    <strong>
+                      Designing an engaging interfaces with users in mind, using
+                      clear, and distincts elements across all design layouts
+                    </strong>
+                    -
+                    <strong style="color: #aa31f5">
+                      Designing for accessibility and inclusivity
+                    </strong>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="border5"></div>
+      <section class="c-audit">
+        <div>
+          <h3>user Journey</h3>
+          <p>
+            Tombri Ebi journey revealed how easy it would be for users to find a
+            music streaming platform that allows easier finding of music through
+            a scan and stream feature.
+          </p>
+          <img
+            style="padding-top: 50px"
+            width="100%"
+            src="./assets/musiq-app/user-journey.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="">
+        <div class="c-audit">
+          <h3>Information Architecture</h3>
+          <p>
+            An end to end representation/workflow of the information
+            architecture showing the walkthrough of one phase to other other.
+          </p>
+        </div>
+        <div class="musiq-ia">
+          <img
+            width="100%"
+            class="Ia-img"
+            src="./assets/musiq-app/IA.png"
+            alt="user flow"
+          />
+        </div>
+      </section>
+      <section class="painpoints">
+        <div>
+          <h3>Sketches/Paper Wireframes</h3>
+          <img
+            class=""
+            src="./assets/musiq-app/Sketches.png"
+            alt="paper wireframes"
+            width="70%"
+            style="margin-right: auto; margin-left: auto"
+          />
+        </div>
+      </section>
+    </main>
+    <section
+      onclick="navigateToPage('fidelity-bank.html')"
+      class="next-project"
+    >
+      <div>View Next Project</div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-details">
+        <p class="footer-text">HIT ME UP, LET's WORK TOGETHER</p>
+        <p class="email">
+          olumichael1998@gmail.com
+          <span> <img src="./assets/copy-icon.svg" alt="copy-icon" /> </span>
+        </p>
+      </div>
+      <div class="socials">
+        <p>
+          <span><img src="./assets/logo-twitter.svg" alt="twitter logo" /></span
+          >TWITTER
+        </p>
+        <p>
+          <span
+            ><img src="./assets/logo-linkedin.svg" alt="linkedin logo" /></span
+          >LINKEDIN
+        </p>
+        <p>
+          <span><img src="./assets/logo-behance.svg" alt="behance logo" /></span
+          >BEHANCE
+        </p>
+      </div>
+    </footer>
+
+    <!-- javascript -->
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "500px";
+        document.getElementById("main").style.marginLeft = "500px";
+      }
+
+      /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+      function navigateToPage(pageURL) {
+        window.location.href = pageURL;
+      }
+    </script>
+  </body>
+</html>
