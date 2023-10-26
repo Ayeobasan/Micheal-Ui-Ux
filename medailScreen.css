@@ -1,0 +1,1792 @@
+@media screen and (max-width: 1366px) {
+  body {
+    /* background-color: red; */
+    overflow-x: hidden;
+  }
+  .logo-text2 {
+    display: none;
+  }
+  .sidebar .closebtn {
+    top: -40px;
+    margin-left: 0px;
+  }
+  .sidebar {
+    padding-top: 0px;
+  }
+  sub img {
+    width: 40px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+  .main {
+    background-color: white;
+  }
+  header {
+    height: 87vh;
+    width: 100%;
+  }
+  #scroll-block {
+    overflow: hidden;
+  }
+  .nav-wrapper .nav {
+    padding: 10px;
+  }
+  .quid-div {
+    background-color: white;
+    padding: 150px 0px 0px;
+  }
+  .quid-div .quid-app {
+    padding: 10px 0px;
+    height: 65vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+  }
+  .quid-div .quid-app .quid-flex {
+    padding: 0px;
+    /* height: auto; */
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px 70px; */
+    width: 88%;
+    margin: auto;
+    align-items: start;
+  }
+  .body-details {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 88%;
+    margin: auto;
+  }
+  .body-details p {
+    font-size: 20px;
+  }
+  .body-details .project-body-img img {
+    margin: 0px;
+    width: 70%;
+  }
+  .design-process {
+    width: 100%;
+    display: flex;
+    /* justify-items: center; */
+    /* margin: auto; */
+  }
+  .design-process h3 {
+    font-size: 25px;
+    padding: 0px 0px 30px;
+    font-family: Syncopate;
+    font-weight: 700;
+    width: 88%;
+    display: flex;
+    margin: auto;
+
+    /* margin-left: 100px; */
+  }
+  .product-research {
+    padding: 50px 0px;
+    width: 87%;
+    margin: auto;
+  }
+  .product-research h3 {
+    font-size: 20px;
+  }
+  .product p {
+    font-size: 19px;
+    font-family: Georama;
+    font-weight: 400;
+    line-height: 2.3rem;
+    padding: 0px 0px 20px;
+  }
+  .product-discovery-card {
+    width: 85%;
+    margin: auto;
+    padding: 50px 0px !important;
+  }
+  .product-discovery-card .greencard-img {
+    background-color: #f7feed;
+    /* display: flex; */
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .greencard-p {
+    /* padding: 50px; */
+    background-color: #39641e;
+    color: #fff;
+  }
+  .greencard-p p {
+    padding: 20px 30px 60px;
+    display: flex;
+    justify-content: center;
+    /* width: 90%; */
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    font-size: 18px !important;
+  }
+  .browncard-p p {
+    padding: 20px 30px 60px;
+    display: flex;
+    justify-content: center;
+    /* width: 90%; */
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    font-size: 18px !important;
+  }
+  .discovery {
+    padding: 0px;
+    width: 88%;
+    margin: auto;
+  }
+  .discovery h3 {
+    font-size: 20px;
+    padding: 20px 0px;
+  }
+  .product-research p {
+    font-size: 19px;
+  }
+  .discovery p {
+    font-size: 19px;
+  }
+  .row-cards p {
+    font-size: 15px;
+  }
+  .painpoints {
+    padding: 40px 0px;
+    width: 90%;
+    margin: auto;
+  }
+  .painpoint {
+    /* padding: 40px 0px; */
+    width: 97%;
+    margin: auto;
+  }
+  .user-stories {
+    width: 93%;
+    margin: auto;
+  }
+  .painpoint h3 {
+    font-size: 20px;
+  }
+  .painpoint p {
+    font-size: 18px;
+  }
+  .painpoints-block {
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    border-radius: 8px;
+    background: #fcfbff;
+    padding: 40px;
+    gap: 50px;
+    margin: auto;
+  }
+  .painpoints-block .block li {
+    /* background-color: red; */
+    font-size: 18px;
+    width: 100%;
+  }
+  .a li::before {
+    width: 3rem;
+  }
+  .c-audit {
+    padding: 0px;
+    width: 88%;
+    margin: auto;
+  }
+  .c-audit h3 {
+    font-size: 20px;
+  }
+  .c-audit p {
+    font-size: 20px;
+  }
+  .product-goals {
+    background-color: #f8f8f9;
+    padding: 20px;
+  }
+  .border4 {
+    background-color: #e10b89;
+    height: 10px;
+    width: 95%;
+    margin: auto;
+  }
+  .product-goals {
+    margin-top: 2rem;
+  }
+  .border4 {
+    margin-top: 30px;
+  }
+  .product-goals-details {
+    background-color: #f8f8f9;
+    padding: 0px 16px 70px;
+  }
+  .product-goals-details .details {
+    background-color: #fff;
+    padding: 40px;
+    width: 91%;
+    margin: auto;
+  }
+  .scroll-container img {
+    width: 60%;
+  }
+  .scroll-container3 {
+    align-items: center;
+    /* flex-direction: column; */
+    display: flex;
+  }
+  .scroll-container3 img {
+    width: 24%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ia-details {
+    background-color: white;
+    padding: 100px 70px;
+  }
+  .ia-details h3 {
+    font-size: 20px;
+  }
+  .ia-details p {
+    font-size: 20px;
+  }
+  .designs-heading {
+    padding: 50px 0px;
+    width: 88%;
+    margin: auto;
+    height: auto;
+  }
+  .onboarding {
+    padding: 0px 0px 0px;
+  }
+  .on {
+    padding: 50px 50px 30px 80px;
+    font-size: 20px;
+  }
+  .onboarding p {
+    font-size: 18px;
+  }
+  .onboarding h3 {
+    font-size: 18px;
+  }
+  .onboarding2 {
+    padding: 0px 0px 0px;
+  }
+  .onboarding2 p {
+    font-size: 18px;
+  }
+  .onboarding2 h3 {
+    /* font-size: 20px; */
+  }
+  .on2 {
+    padding: 50px 50px 30px 80px;
+    font-size: 20px;
+  }
+  .designs-img {
+    overflow: auto;
+    background: #fff;
+  }
+  .scroll-container2 {
+    overflow: auto;
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+  }
+  .scroll-container2 img {
+    width: 20%;
+  }
+
+  /* footer */
+
+  .project-footer p {
+    color: #fff;
+    font-family: Syncopate;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  #text {
+    color: #fff;
+    font-family: Georama;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .next-project {
+    width: 40%;
+    padding: 24px;
+    font-size: 1.5rem;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .socials p {
+    font-size: 1.2rem;
+  }
+  .footer-details {
+    width: 100%;
+  }
+  .footer-details p {
+  }
+  .socials {
+    width: 20%;
+  }
+
+  /* about */
+  .intro-main {
+    overflow-x: hidden;
+  }
+  .about-body {
+    margin: 0px;
+    width: 89%;
+    margin: auto;
+  }
+  .intro-main {
+    padding-top: 100px;
+  }
+  .intro-head {
+    margin: 0px;
+    padding: 0px 0px 0px 80px;
+  }
+  .gradient {
+    /* background-color: #0d111f; */
+    position: absolute;
+    width: 600px;
+    height: 40px;
+    bottom: -77px;
+    /* left: 50px; */
+    background: linear-gradient(360deg, #fff 50%, rgba(255, 255, 255, 0) 100%);
+  }
+  /* Project  */
+  .project-main {
+    padding-top: 150px;
+  }
+  .project {
+    height: 70vh;
+    justify-content: space-between;
+  }
+  /* .project {
+    background-color: #fafafe;
+    padding: 0px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    max-height: 750px;
+    overflow: hidden;
+  } */
+  /* .project-container {
+    padding: 0px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    height: 80vh;
+    overflow: hidden;
+  } */
+  .clickable-section {
+    cursor: pointer;
+    /* transition: transfrom .2s; */
+  }
+  .project-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .row-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0px;
+  }
+
+  /* fidelity */
+  .disclaimer {
+    padding: 40px;
+    width: 80%;
+  }
+
+  .learnings {
+    padding: 40px;
+    width: 50%;
+  }
+  .learnings p {
+    font-size: 13px;
+    line-height: 2;
+  }
+  .new-feature {
+    font-size: 1.3rem;
+    width: 40%;
+    padding: 30px;
+  }
+  .pd-card {
+    width: 50%;
+    padding: 30px;
+  }
+  .fidelity-project {
+    padding: 0px;
+    width: 87%;
+    margin: auto;
+    background: #f9fcff;
+  }
+
+  /* musiq */
+
+  .reviews-screenshot img {
+    border-radius: 9.136px;
+    border: 9.136px solid #f82424;
+    background: #fce0dd;
+    padding: 20px;
+    width: 40%;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 1162px) {
+  .quid-div .quid-app {
+    padding: 10px 0px;
+    /* height: auto; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+  }
+  .quid-heading h1 {
+    font-size: 60px;
+  }
+  .product-discovery-card {
+    width: 100%;
+    margin: auto;
+    padding: 50px 0px !important;
+  }
+  .greencard-img img,
+  .browncard-img img {
+    background-color: #0b7909;
+    border: 4px solid #1eaf1b;
+    border-radius: 10px;
+    padding: 10px;
+    width: 10%;
+  }
+  .greencard-p p,
+  .browncard-p p {
+    font-size: 15px !important;
+    text-align: start;
+    padding: 10px 30px 30px;
+    line-height: 1.5;
+  }
+  .greencard-img p,
+  .browncard-img p {
+    font-size: 20px;
+  }
+  .border4 {
+    width: 96%;
+  }
+  .b li {
+    font-size: 15px;
+    line-height: 1.6rem;
+    align-items: start;
+  }
+  .on {
+    padding: 50px 50px 30px 70px;
+    font-size: 20px;
+  }
+  .on2 {
+    padding: 50px 50px 30px 70px;
+    font-size: 20px;
+  }
+  .scroll-container2 img {
+    width: 20%;
+  }
+
+  /* about */
+
+  .img-head h1 {
+    font-family: Syncopate;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+  }
+  .img-head {
+    align-items: end;
+  }
+  .page-img {
+    position: relative;
+    width: 500px;
+  }
+  .gradient {
+    /* background-color: #0d111f; */
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    bottom: 0px;
+    /* left: 50px; */
+    background: linear-gradient(360deg, #fff 50%, rgba(255, 255, 255, 0) 100%);
+  }
+  /* project */
+  .project-group {
+    margin-top: 40px;
+    height: 40vh;
+  }
+  .project img {
+    width: 500px;
+  }
+  .project-year {
+    font-size: 1.2rem;
+  }
+  .project-name {
+    color: #120a27;
+    font-size: 50px;
+    font-family: Syncopate;
+    font-weight: 700;
+  }
+  .project-details {
+    font-size: 1.5rem;
+    font-family: Georama;
+    font-weight: 400;
+    margin-top: 30px;
+    /* width: 558px; */
+  }
+  /* fedlity */
+  .user {
+    border-radius: 10px;
+    border: 10px solid #efa921;
+    background: #ebeefe;
+    padding: 20px;
+    margin: 50px auto;
+    width: 90%;
+  }
+  .Personal-details {
+    background-color: white;
+    padding: 20px;
+  }
+  .Personal-details .img {
+    width: 200px;
+  }
+  .Personal-details h3 {
+    font-size: 15px;
+  }
+  .Personal-details .Pelumi p {
+    padding: 5px 0px;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .Personal-details .All-Challenge ul li {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .name h1 {
+    font-size: 7.5rem;
+  }
+  .name h2 {
+    font-size: 45px;
+  }
+  .home-socials {
+    padding-top: 60px;
+  }
+  .quid-div .quid-app .quid-flex {
+    align-items: start;
+    margin-top: 0px;
+  }
+  .quid-flex .hero-img img {
+    width: 100%;
+  }
+  .quid-flex .hero-img {
+    justify-content: end;
+    width: 50%;
+  }
+  .row-1 {
+    width: 100%;
+    gap: 30px;
+  }
+
+  /* about */
+
+  .img-head h1 {
+    font-family: Syncopate;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+  }
+  /* project */
+
+  .project-name {
+    font-size: 40px;
+  }
+  .project-details {
+    font-size: 15px;
+  }
+  .project-group {
+    height: 10vh;
+  }
+  .learnings {
+    padding: 40px;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .quid-div .quid-app {
+    /* height: auto; */
+    align-items: center;
+  }
+  .quid-heading h1 {
+    font-size: 40px;
+  }
+  .quid-div .quid-app .quid-flex {
+    align-items: start;
+  }
+  .hero-text {
+    margin-top: 60px;
+  }
+  .quid-details p {
+    font-size: 20px;
+  }
+  .quid-flex .hero-img {
+    justify-content: end;
+    width: 50%;
+  }
+  .project-body h3 {
+    font-size: 20px;
+  }
+  .project-body p {
+    font-size: 15px;
+    line-height: 1.5rem;
+  }
+  .project-body-img {
+    margin: 50px 0 100px 0;
+  }
+  .body-details .project-body-img img {
+    margin: 0px;
+    width: 80%;
+  }
+  .design-process .image-style {
+    background-color: #2c2079;
+    padding: 50px 20px;
+  }
+  .design-process .image-style img {
+    padding: 0px 0px;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .painpoints-block {
+    gap: 10px;
+  }
+  .painpoints-block h4 {
+    font-size: 16px;
+  }
+  .a li {
+    color: #0a1027;
+    font-size: 15px !important;
+    line-height: 1.4rem;
+  }
+  .border4 {
+    width: 91.5%;
+  }
+  .product-goals-details .details {
+    padding: 20px;
+    width: 90%;
+  }
+  .user {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
+  .product p {
+    font-size: 14px;
+    line-height: 2rem;
+  }
+  .on {
+    padding: 50px 0px;
+    width: 88%;
+    margin: auto;
+  }
+  .on2 {
+    padding: 50px 0px;
+    width: 88%;
+    margin: auto;
+  }
+
+  .designs-img {
+    width: 100%;
+  }
+  .footer-details {
+    width: 80%;
+  }
+  .footer-details .email {
+    font-size: 15px;
+  }
+  .footer-details p {
+    font-size: 3rem;
+  }
+  .socials {
+    width: 30%;
+  }
+
+  /* about */
+
+  .intro-head {
+    margin: 0px;
+    padding: 0px 0px 0px 40px;
+  }
+  .img-head h1 {
+    font-family: Syncopate;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+  }
+  .img-head {
+    align-items: end;
+  }
+  .page-img img {
+    position: relative;
+    width: 400px;
+  }
+
+  /*project  */
+  .project {
+    height: 50vh;
+    margin: 0 50px 50px 50px;
+  }
+  .next-project {
+    width: 40%;
+    padding: 24px;
+    font-size: 1rem;
+  }
+  /* fidelity */
+  .learnings {
+    padding: 40px;
+    width: 70%;
+  }
+  .new-feature {
+    font-size: 1.3rem;
+    width: 50%;
+    padding: 20px;
+  }
+  .Personal-details .All-Challenge {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 780px) {
+  .name h1 {
+    font-size: 6rem;
+  }
+  .name h2 {
+    font-size: 35px;
+  }
+  .name p {
+    font-size: 10px;
+  }
+  .quid-flex .hero-img {
+    justify-content: end;
+    width: 70%;
+  }
+
+  .quid-details {
+    flex-direction: column;
+    gap: 0;
+    margin-top: 10px;
+  }
+  .quid-heading h1 {
+    font-size: 33px;
+  }
+  .quid-heading p {
+    font-size: 1.2rem;
+    padding: 0px 0 0 0;
+  }
+  .body-details .project-body-img img {
+    margin: 0px;
+    width: 100%;
+  }
+  .design-process h3 {
+    font-size: 15px;
+    padding: 0px 0px 30px;
+  }
+  .design-process .image-style {
+    background-color: #2c2079;
+    padding: 50px 20px;
+  }
+  .design-process .image-style img {
+    padding: 0px 0px;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .product-research {
+    padding: 50px 0px;
+    width: 87%;
+    margin: auto;
+  }
+  .product-research h3 {
+    font-size: 15px;
+  }
+  .product-discovery-card {
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    gap: 15px;
+  }
+  .greencard-img img,
+  .browncard-img img {
+    background-color: #0b7909;
+    border: 4px solid #1eaf1b;
+    border-radius: 10px;
+    padding: 5px;
+    width: 10%;
+  }
+  .greencard-p p,
+  .browncard-p p {
+    font-size: 13px !important;
+    text-align: start;
+    padding: 10px 30px 30px;
+    line-height: 1.5;
+  }
+  .greencard-img p,
+  .browncard-img p {
+    font-size: 15px;
+  }
+  .discovery h3,
+  .discovery p,
+  .product-research p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .block1 p,
+  .row-2 p {
+    font-size: 15px;
+    font-family: Georama;
+    font-weight: 500;
+  }
+  .painpoints-block .block {
+    justify-content: center;
+    align-items: center;
+    /* display: flex;
+   flex-direction: column; */
+  }
+  .heading4 h4 {
+    color: #aa31f5;
+    font-size: 15px;
+
+    padding: 20px;
+  }
+  .heading4 p {
+    font-size: 15px;
+    line-height: 2rem;
+  }
+  .goals {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  .product-goals-details .details {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .product p {
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+  .ia-details {
+    background-color: white;
+    padding: 50px;
+  }
+  .ia-details p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .painpoint p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .designs-heading p {
+    font-size: 15px;
+    font-family: Georama;
+    font-weight: 400;
+    line-height: 2rem;
+  }
+  .scroll-container2 {
+    overflow: auto;
+    display: flex;
+    gap: 30px;
+    padding: 50px 30px;
+  }
+  .scroll-container2 img {
+    width: 25%;
+  }
+  .scroll-container {
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+  }
+  .scroll-container img {
+    width: 100%;
+  }
+  .footer-details .email {
+    font-size: 1.2rem;
+  }
+  .footer-details p {
+    font-size: 2rem;
+  }
+  .socials {
+    width: 40%;
+  }
+  .socials p {
+    font-size: 1rem;
+    gap: 10px;
+  }
+  .socials img {
+    /* width: 50%; */
+  }
+  footer {
+    background-color: #0a1027;
+    color: #fff;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+  }
+  .footer-details .email {
+    font-size: 13px;
+    margin: 20px 0px;
+  }
+  /* fidelity */
+
+  .disclaimer h3,
+  .learnings h3 {
+    font-size: 20px;
+  }
+  .disclaimer .p,
+  .learnings p {
+    font-size: 15px;
+  }
+  .pd-card {
+    width: 60%;
+    padding: 20px;
+  }
+  .learnings {
+    padding: 40px;
+    width: 80%;
+  }
+  .new-feature {
+    font-size: 15px;
+    width: 50%;
+    padding: 20px;
+  }
+  /* about */
+
+  .intro-head {
+    margin: 0px;
+    padding: 0px 0px 0px 40px;
+  }
+  .img-head h1 {
+    font-family: Syncopate;
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 3rem;
+  }
+  .img-head {
+    align-items: end;
+  }
+  .page-img img {
+    position: relative;
+    width: 400px;
+    height: 400px;
+  }
+  /* project */
+  .project img {
+    width: 400px;
+  }
+  .project-name {
+    font-size: 30px;
+  }
+  .project-details {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 692px) {
+  .painpoints-block {
+    justify-content: end;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .img-head h1 {
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+  }
+  .quid-div .quid-app .quid-flex {
+    align-items: start;
+    margin-top: 50px;
+  }
+  .user-stories h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .userstories li {
+    font-size: 17px;
+    line-height: 2;
+  }
+  .user {
+    border-radius: 10px;
+    border: 5px solid #efa921;
+    background: #ebeefe;
+    padding: 10px;
+    margin: 50px auto;
+    width: 90%;
+  }
+  .Personal-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .Personal-details .img {
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+
+    padding-bottom: 10px;
+  }
+  .Personal-details .left {
+    width: 90%;
+    margin: auto;
+  }
+  .Personal-details .right {
+    width: 90%;
+    margin: auto;
+  }
+  .Personal-details h2{
+    width: 48%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .painpoints-block {
+    justify-content: end;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .project {
+    padding: 10px 0 20px 20px;
+    margin: 0 20px 20px 20px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+  }
+  .user-stories h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .userstories li {
+    font-size: 20px;
+    line-height: 2;
+  }
+  .learnings {
+    flex-direction: column;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+  }
+  .scroll-contain img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  /* musiq */
+  .reviews-screenshot img {
+    border-radius: 9.136px;
+    border: 9.136px solid #f82424;
+    background: #fce0dd;
+    padding: 5px;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  .reviews-screenshot {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .name {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  .name h1 {
+    font-size: 5rem;
+  }
+  .name h2 {
+    font-size: 35px;
+  }
+  .name p {
+    font-size: 10px;
+  }
+  .nav-bar {
+    flex-direction: column;
+  }
+  .quid-div .quid-app .quid-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .quid-div .quid-app .quid-flex {
+    align-items: center;
+  }
+  .quid-heading h1 {
+    margin-top: 20px;
+  }
+  .quid-div .quid-app {
+    padding-top: 10px;
+    /* height: auto; */
+    height: 85vh;
+  }
+  .quid-flex .hero-img {
+    margin-top: 30px;
+  }
+  .hero-text {
+    margin-top: 0px;
+  }
+  .design-process .image-style img {
+    padding: 0px 0px;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .product-discovery-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 10px;
+  }
+  .block1 p,
+  .row-2 p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  .block1,
+  .row-2 p {
+    padding: 1rem;
+  }
+  .painpoints-block {
+    justify-content: end;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .b li {
+    line-height: 2rem;
+  }
+  .goals h4 {
+    color: #aa31f5;
+    font-size: 15px;
+    font-family: Syncopate;
+    font-weight: 700;
+    padding: 20px 0;
+  }
+  .ia-details {
+    background-color: white;
+    padding: 60px 40px;
+  }
+  .img-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 50px;
+    margin: 0px 20px;
+  }
+  .designs-img img {
+    width: 40%;
+  }
+  .scroll-container2 img {
+    width: 40%;
+  }
+  .footer-details {
+    width: 100%;
+  }
+  .footer-details p {
+    font-size: 2.5rem;
+  }
+  .footer-details .email {
+    font-size: 15px;
+    margin: 30px 0px;
+  }
+  footer {
+    flex-direction: column;
+    align-items: start;
+    padding: 50px 20px;
+  }
+  /* fidelity */
+
+  .disclaimer h3,
+  .learnings h3 {
+    font-size: 15px;
+  }
+  .disclaimer .p .learnings p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .disclaimer {
+    flex-direction: column;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  /* about */
+  .page-img img {
+    position: relative;
+    width: 450px;
+    align-items: center;
+  }
+  .img-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .img-head h1 {
+    font-size: 27px;
+    line-height: 3rem;
+  }
+  sub img {
+    width: 10%;
+  }
+  .body-text {
+    font-family: Georama;
+    font-size: 1.2rem;
+    margin: 20px 0 20px 0;
+    line-height: 2rem;
+  }
+  /* project */
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project img {
+    width: 400px;
+    margin-top: 20px;
+  }
+  .project-year {
+    font-size: 1.2rem;
+  }
+  .project-name {
+    color: #120a27;
+    font-size: 50px;
+    font-family: Syncopate;
+    font-weight: 700;
+  }
+  .project-details {
+    font-size: 1.5rem;
+    font-family: Georama;
+    font-weight: 400;
+    margin-top: 10px;
+    /* width: 558px; */
+  }
+  .project {
+    padding: 20px;
+    height: 100vh;
+    max-height: 450px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+  }
+  .project-group {
+    height: 40vh;
+    margin-top: 0px;
+  }
+  .next-project {
+    width: 40%;
+    padding: 24px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 515px) {
+  .name {
+    padding-top: 70px;
+  }
+  .name h1 {
+    font-size: 4rem;
+  }
+  .name h2 {
+    font-size: 35px;
+  }
+  .name p {
+    font-size: 10px;
+  }
+  .nav-bar {
+    flex-direction: column;
+  }
+  .logo-icon {
+    flex-direction: column;
+  }
+  .logo-icon p {
+    font-size: 15px;
+  }
+  .page-name {
+    /* font-size: 15px; */
+  }
+  .logo-text2 {
+    display: block;
+    font-size: 140%;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .logo-text {
+    display: none;
+  }
+  .product-discovery-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 100%;
+    gap: 50px;
+  }
+  .row-cards .row-1 {
+    flex-direction: column;
+    margin-top: 0px;
+    align-items: center;
+  }
+  .row-1 {
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .block1 {
+    border-radius: 1.25rem;
+    padding: 1rem;
+    color: white;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  .row-2 {
+    border-radius: 1.25rem;
+    color: white;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .row-2 p {
+    padding: 1rem;
+  }
+  .block1 p,
+  .row-2 p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .row-2 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0 10px 0;
+    width: 92%;
+  }
+  .row-1 {
+    gap: 0px;
+  }
+  .row-cards {
+    margin-top: 20px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    place-items: center;
+  }
+  .painpoints-block .block {
+    justify-content: end;
+    margin: 0px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+  }
+  .painpoints-block .block li {
+    /* background-color: red; */
+    right: 0;
+  }
+  .user-stories h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .userstories li {
+    font-size: 17px;
+    line-height: 2;
+  }
+  .heading4 h4 {
+    font-size: 10px;
+    padding: 10px;
+  }
+  .designs-img {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 50px;
+  }
+  .designs-img img {
+    width: 50%;
+  }
+  .border4 {
+    width: 93%;
+  }
+  .onboarding p {
+    font-size: 15px;
+    line-height: 2;
+  }
+  .store {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-details p {
+    font-size: 27px;
+  }
+  .footer-details .email {
+    font-size: 13px;
+    margin: 20px 0px;
+  }
+  .footer-details .email span img {
+    width: 18px;
+  }
+  /* fidelity */
+
+  .disclaimer,
+  .learnings {
+    padding: 20px;
+    width: 80%;
+  }
+  .pd-card {
+    width: 80%;
+    padding: 10px;
+  }
+  .new-feature {
+    font-size: 10px;
+    width: 60%;
+    padding: 20px;
+  }
+  .pd-card p {
+    padding: 10px;
+  }
+  .user {
+    border-radius: 10px;
+    border: 5px solid #efa921;
+    background: #ebeefe;
+    padding: 10px;
+    margin: 50px auto;
+    width: 90%;
+  }
+  .Personal-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .Personal-details .img {
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    padding-bottom: 10px;
+  }
+  .Personal-details h3 {
+    font-size: 12px;
+  }
+  .right .Pelumi img {
+width: 20%;
+}
+ 
+  .Personal-details .left {
+    width: 100%;
+    margin: auto;
+  }
+  .Personal-details .right {
+    width: 100%;
+    margin: auto;
+  }
+
+  /* about  */
+
+  .intro-head {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  .intro {
+    padding: 50px 0px 30px;
+  }
+  .intro-main {
+    width: 90%;
+    margin: auto;
+  }
+  .about-body {
+    margin: 0px;
+    width: 100%;
+    margin: auto;
+  }
+
+  /* .img-head h1 {
+    font-family: Syncopate;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 3rem;
+  } */
+  /* .page-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  /* project */
+
+  .project img {
+    width: 300px;
+    margin-top: 20px;
+  }
+  .project-details {
+    font-size: 15px;
+  }
+  .project-name {
+    font-size: 40px;
+  }
+  .scroll-contain {
+    padding: 20px;
+  }
+  .scroll-contain img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .body-details {
+    padding: 50px 0px;
+    width: 87%;
+    /* margin: auto; */
+  }
+  .logo-text2 {
+    display: block;
+    font-size: 100%;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .name h1 {
+    font-size: 3rem;
+  }
+  .name h2 {
+    font-size: 30px;
+  }
+  .name p {
+    font-size: 10px;
+  }
+  .nav-bar {
+    flex-direction: column;
+  }
+  .quid-heading p {
+    font-size: 15px;
+  }
+  .quid-details p {
+    font-size: 18px;
+  }
+  .design-process .image-style img {
+    padding: 0px 0px;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .product-discovery-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 10px;
+  }
+  .row-2 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0 10px 0;
+    width: 94%;
+  }
+  .c-audit h3 {
+    font-size: 15px;
+  }
+  .c-audit p {
+    font-size: 15px;
+    line-height: 1.4rem;
+  }
+  .b li {
+    line-height: 1.6rem;
+  }
+  .ia-details {
+    background-color: white;
+    padding: 60px 20px;
+  }
+  #scroll-container img {
+    width: 100%;
+  }
+  .scroll-container img {
+    width: 50rem;
+  }
+  .scroll-contain img {
+    width: 80%;
+  }
+  .scroll-contain {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 20px;
+  }
+  .scroll-container img:nth-child(2) {
+    padding-left: 20px;
+  }
+  .scroll-container img:nth-child(3) {
+    padding-left: 20px;
+  }
+  .designs-img img {
+    width: 70%;
+  }
+  .project-body-img img:nth-child(1) {
+    display: none;
+  }
+  .project-body-img img:nth-child(2) {
+    display: block;
+  }
+  .image-style img:nth-child(1) {
+    display: none;
+  }
+  .image-style img:nth-child(2) {
+    display: block;
+  }
+  .caudit-img {
+    display: block;
+    border: 0px solid #5021ef;
+    background-color: #ebeefe;
+    padding: 0px;
+  }
+
+  .caudit-img img:nth-child(1) {
+    display: none;
+  }
+  .caudit-img img:nth-child(2) {
+    display: block;
+  }
+  .body-details .project-body-img img {
+    margin: 0px;
+    width: 95%;
+  }
+
+  .scroll-container2 img {
+    width: 80%;
+  }
+  .border4 {
+    width: 93.5%;
+    margin-left: 16px;
+  }
+  .product-goals {
+    padding: 20px 0px;
+    margin-left: auto;
+    padding-right: 10px;
+  }
+  .product-goals-details {
+    /* padding-right: 10px; */
+  }
+  /* fidelity */
+
+  .disclaimer {
+    flex-direction: column;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+  }
+  .footer-details .email {
+    font-size: 13px;
+  }
+  .socials img {
+    width: 25px;
+  }
+  .project-footer {
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  /* project */
+}
+
+@media screen and (max-width: 400px) {
+  .name h1 {
+    font-size: 3rem;
+  }
+  .name h2 {
+    font-size: 30px;
+  }
+  .name p {
+    font-size: 10px;
+  }
+  .nav-bar {
+    flex-direction: column;
+  }
+  .next-project {
+    width: 60%;
+    padding: 24px;
+    font-size: 10px;
+  }
+  .footer-details .email {
+    font-size: 11px;
+  }
+  .project-footer #text {
+    font-size: 15px;
+  }
+  .project-footer p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .footer-details .email {
+    font-size: 9.5px;
+  }
+  .footer-details p {
+    font-size: 20px;
+  }
+  .logo-text2 {
+    font-size: 80%;
+    width: 90%;
+  }
+  .row-2 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0 10px 0;
+    width: 95%;
+  }
+  .logo-text2 span {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .name h1 {
+    font-size: 2rem;
+  }
+  .name h2 {
+    font-size: 20px;
+  }
+  .nav-bar a {
+    font-size: 20px;
+  }
+  .name p {
+    font-size: 10px;
+  }
+  .nav-bar {
+    flex-direction: column;
+  }
+  .footer-details .email {
+    font-size: 7px;
+  }
+  .row-2 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0 10px 0;
+    width: 100%;
+  }
+}

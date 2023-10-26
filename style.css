@@ -14,6 +14,10 @@ header {
   height: 85vh;
   width: 100%;
 }
+.logo-text2 {
+  display: none;
+}
+
 .logo {
   display: flex;
   justify-content: center;
@@ -64,7 +68,7 @@ h1 {
 .tag {
   font-size: 1.7rem;
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   padding: 10px;
   justify-content: center;
   align-items: center;
@@ -73,6 +77,7 @@ h1 {
   color: #fff;
   height: 10vh;
   width: 100%;
+  overflow: hidden;
 }
 
 /* text animation */
@@ -144,7 +149,7 @@ a:hover {
   display: flex;
   gap: 1rem;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
 }
 .logo-text {
   font-family: Syncopate;
@@ -242,6 +247,9 @@ a:hover {
 .intro-main {
   padding-top: 80px;
 }
+.white {
+  background-color: white;
+}
 .intro-head {
   margin: 80px 0 0 100px;
 }
@@ -268,13 +276,14 @@ a:hover {
 } */
 .page-img img {
   position: relative;
+  width: 600px;
 }
 .gradient {
   /* background-color: #0d111f; */
   position: absolute;
   width: 600px;
   height: 40px;
-  bottom: -70px;
+  bottom: -140px;
   /* left: 50px; */
   background: linear-gradient(360deg, #fff 50%, rgba(255, 255, 255, 0) 100%);
 }
@@ -347,15 +356,14 @@ footer {
   display: flex;
   max-height: 450px;
   overflow: hidden;
-  /* justify-content: center;
-  align-items: center; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
 }
 .project:hover {
   background-color: #f3f3f4;
   cursor: pointer;
 }
 .project-group {
-  /* max-width: 500px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -416,6 +424,9 @@ footer {
   padding: 30px 0 0 0;
   margin-top: 30px;
 }
+.quid-flex {
+  display: flex;
+}
 .job {
   color: #dee4e6;
   font-size: 1.2rem;
@@ -449,6 +460,15 @@ footer {
 }
 .project-body-img {
   margin: 50px 0 100px 0;
+}
+.project-body-img img:nth-child(2) {
+  display: none;
+}
+.image-style img:nth-child(2) {
+  display: none;
+}
+.caudit-img img:nth-child(2) {
+  display: none;
 }
 .disclaimer {
   display: flex;
@@ -504,6 +524,9 @@ footer {
   font-family: Georama;
   font-weight: 400;
   line-height: 2.3rem;
+}
+.product-research span {
+  font-weight: 600;
 }
 .product-discovery-card {
   display: flex;
@@ -627,20 +650,6 @@ footer {
   width: 23rem;
 }
 .block1 p {
-  font-size: 1.1rem;
-  font-family: Georama;
-  font-weight: 500;
-}
-
-.block2 {
-  border-radius: 1.25rem;
-  border: 8px solid #77187d;
-  background: #3c053f;
-  padding: 2rem;
-  color: white;
-  width: 23rem;
-}
-.block2 p {
   font-size: 1.1rem;
   font-family: Georama;
   font-weight: 500;
@@ -782,6 +791,20 @@ ul.a {
   font-weight: 400;
   line-height: 2.3rem;
 }
+.sketches {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.sketches img {
+  margin: auto;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* width: 70%; */
+  height: auto;
+}
 .center {
   display: block;
   margin-left: auto;
@@ -817,13 +840,58 @@ ul.a {
   border-top: 8px solid #e1820b;
   background: #fff;
 }
-.user-personas img {
+.Personal-details {
+  display: flex;
+  gap: 20px;
+}
+.user {
   border-radius: 10px;
   border: 10px solid #efa921;
   background: #ebeefe;
-  padding: 40px;
-  margin: 50px 0 0 0;
-  width: 1000px;
+  padding: 20px;
+  margin: 50px auto;
+  width: 90%;
+}
+.Personal-details {
+  background-color: white;
+  padding: 30px;
+}
+.Personal-details .left  h2{
+  line-height: 3;
+  font-size: 15px;
+}
+.Personal-details .All-Challenge {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.right .Pelumi img {
+
+}
+.Personal-details h2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Personal-details h2 img{
+width: 30px;
+}
+.Personal-details .Pelumi p {
+  padding: 10px 0px;
+}
+.Personal-details .Challenges {
+  width: 100%;
+}
+.Personal-details .wants {
+  width: 100%;
+}
+.Personal-details .All-Challenge ul li {
+  align-items: start;
+  line-height: 1.5;
+  gap: 10px;
+}
+.Personal-details .img {
+  width: 300px;
 }
 .persona-img {
   padding: 100px;
@@ -840,6 +908,9 @@ ul.a {
 .product-goals-details {
   background-color: #fff;
   padding: 30px;
+}
+.product-goals-details span {
+  color: #aa31f5;
 }
 .heading4 h4 {
   color: #aa31f5;
@@ -939,6 +1010,19 @@ li {
   white-space: nowrap;
   padding: 50px;
 }
+.scroll-contain {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.scroll-contain img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 28%;
+}
 .scroll-container img {
   margin-left: auto;
   margin-right: auto;
@@ -948,7 +1032,7 @@ li {
 .border5 {
   background-color: #472878;
   height: 20px;
-  margin-top: 100px;
+  margin: 50px 0px;
 }
 /* .designs {
   /* padding: 50px 50px 100px 100px; */
@@ -989,7 +1073,7 @@ li {
 }
 .designs-img {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   justify-content: space-evenly;
   /* flex-wrap: wrap; */
   padding-top: 50px;
@@ -997,20 +1081,27 @@ li {
 .designs-img img {
   width: 20%;
 }
+.img-container {
+  display: flex;
+  /* width: 100%; */
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+  padding-top: 50px;
+}
 /* registration(project) */
-.registration {
+.onboarding {
   background: #fdf9ff;
   padding: 50px 50px 100px 100px;
   margin-top: 50px;
 }
-.registration h3 {
+.onboarding h3 {
   color: #7908da;
   font-size: 1.8rem;
   font-family: Syncopate;
   font-weight: 700;
   padding-bottom: 20px;
 }
-.registration p {
+.onboarding p {
   font-size: 1.3rem;
   font-family: Georama;
   font-weight: 400;
@@ -1022,165 +1113,11 @@ li {
   white-space: nowrap;
   padding: 50px;
 }
+
 .scroll-container2 img {
   margin-left: auto;
   margin-right: auto;
   width: 20%;
-}
-/* navigation(project) */
-.navigation {
-  background: #fffbf9;
-  padding: 50px 50px 100px 100px;
-  margin-top: 50px;
-}
-.navigation h3 {
-  color: #da6c08;
-  font-size: 1.8rem;
-  font-family: Syncopate;
-  font-weight: 700;
-  padding-bottom: 20px;
-}
-.navigation p {
-  font-size: 1.3rem;
-  font-family: Georama;
-  font-weight: 400;
-  line-height: 2.3rem;
-}
-/* product-purchase(project) */
-.product-purchase {
-  background: #faf9ff;
-  padding: 50px 50px 100px 100px;
-  margin-top: 50px;
-}
-.product-purchase h3 {
-  color: #0808da;
-  font-size: 1.8rem;
-  font-family: Syncopate;
-  font-weight: 700;
-  padding-bottom: 20px;
-}
-.product-purchase p {
-  font-size: 1.3rem;
-  font-family: Georama;
-  font-weight: 400;
-  line-height: 2.3rem;
-}
-/* curated orders */
-.curated-orders {
-  background: #fffbf9;
-  padding: 50px 50px 100px 100px;
-  margin-top: 50px;
-}
-.curated-orders h3 {
-  color: #da6c08;
-  font-size: 1.8rem;
-  font-family: Syncopate;
-  font-weight: 700;
-  padding-bottom: 20px;
-}
-.curated-orders p {
-  font-size: 1.3rem;
-  font-family: Georama;
-  font-weight: 400;
-  line-height: 2.3rem;
-}
-/*cart*/
-.cart {
-  background: #faf9ff;
-  padding: 50px 50px 100px 100px;
-  margin-top: 50px;
-}
-.cart h3 {
-  color: #0808da;
-  font-size: 1.8rem;
-  font-family: Syncopate;
-  font-weight: 700;
-  padding-bottom: 20px;
-}
-.cart p {
-  font-size: 1.3rem;
-  font-family: Georama;
-  font-weight: 400;
-  line-height: 2.3rem;
-}
-/* tracking */
-.tracking {
-  background: #faf9ff;
-  padding: 50px 50px 100px 100px;
-  margin-top: 50px;
-}
-.tracking h3 {
-  color: #0808da;
-  font-size: 1.8rem;
-  font-family: Syncopate;
-  font-weight: 700;
-  padding-bottom: 20px;
-}
-.tracking p {
-  font-size: 1.3rem;
-  font-family: Georama;
-  font-weight: 400;
-  line-height: 2.3rem;
-}
-/* withdrawals */
-.withdrawals {
-  background: #fffbf9;
-  padding: 50px 50px 100px 100px;
-  margin-top: 50px;
-}
-.withdrawal {
-  padding-top: 70px;
-}
-.withdrawals h3 {
-  color: #da6c08;
-  font-size: 1.8rem;
-  font-family: Syncopate;
-  font-weight: 700;
-  padding-bottom: 20px;
-}
-.withdrawals p {
-  font-size: 1.3rem;
-  font-family: Georama;
-  font-weight: 400;
-  line-height: 2.3rem;
-}
-/* promotions */
-.promotions {
-  background: #faf9ff;
-  padding: 50px 50px 100px 100px;
-  margin-top: 50px;
-}
-.promotions h3 {
-  color: #0808da;
-  font-size: 1.8rem;
-  font-family: Syncopate;
-  font-weight: 700;
-  padding-bottom: 20px;
-}
-.promotions p {
-  font-size: 1.3rem;
-  font-family: Georama;
-  font-weight: 400;
-  line-height: 2.3rem;
-}
-/* feedbacks */
-.feedbacks {
-  background: #f9fdff;
-  padding: 50px 50px 100px 100px;
-  margin-top: 50px;
-}
-.feedbacks h3 {
-  color: #08a4da;
-  font-size: 1.8rem;
-  font-family: Syncopate;
-  font-weight: 700;
-  padding-bottom: 20px;
-}
-.feedbacks p {
-  font-size: 1.3rem;
-  font-family: Georama;
-  font-weight: 400;
-  line-height: 2.3rem;
 }
 /* fidelity bank project screens */
 .fidelity-project {
@@ -1308,6 +1245,7 @@ li {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   gap: 30px;
   background: #203079;
   color: #fff;
@@ -1325,240 +1263,4 @@ li {
   font-family: Georama;
   font-size: 1.5rem;
   font-weight: 400;
-}
-/* phonees */
-
-@media (max-width: 480px) {
-  /* index.html */
-  header {
-    height: 85vh;
-    width: 100%;
-    margin: 0 auto;
-  }
-  .logo {
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    padding: 30px;
-  }
-  .logo img {
-    width: 30px;
-  }
-  .name {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-  }
-  h1 {
-    color: #0a1027;
-    font-size: 2rem;
-    font-family: Syncopate;
-
-    font-weight: 700;
-  }
-  .faint-text {
-    color: #0a1027;
-    font-size: 1.5rem;
-    font-family: Syncopate;
-    font-weight: 400;
-  }
-  .pronouns {
-    color: #0a1027;
-    font-size: 0.5rem;
-    font-family: Syncopate;
-    font-weight: 400;
-  }
-  .tag {
-    font-size: 0.7rem;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    background: #0d111f;
-    color: #fff;
-    height: 10vh;
-    width: 100%;
-  }
-  .nav-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    list-style: none;
-    width: 100%;
-    border-bottom: #0a1027;
-    margin-top: 20px;
-  }
-  .nav-bar a {
-    font-weight: 500;
-    font-size: 0.5rem;
-    font-family: Georama;
-    text-decoration: none;
-    color: #0a1027;
-  }
-  a:hover {
-    text-decoration: 2px solid underline;
-    cursor: pointer;
-    color: brown;
-  }
-
-  /* Navbar */
-  .nav-wrapper {
-    background-color: #f8f9f9;
-    position: fixed;
-    z-index: 1;
-    /* width: 100%; */
-  }
-
-  .nav {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 20px 10px;
-  }
-  .logo-icon {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    /* width: 20px; */
-    /* align-items: center; */
-  }
-  .logo-text {
-    font-family: Syncopate;
-
-    font-size: 0.8rem;
-    font-weight: 400;
-    margin-bottom: 0;
-  }
-  .page-name {
-    font-size: 1rem;
-    font-family: Syncopate;
-
-    font-weight: 700;
-    margin-bottom: 0;
-  }
-
-  /* sidebar menu */
-  .sidebar {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    right: 0;
-    background-color: #0a1027; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
-  }
-  /* sidebar links */
-  .sidebar a {
-    padding: 50px 10px 16px 40px;
-    text-decoration: none;
-    font-size: 1rem;
-    color: #fff;
-    display: block;
-    transition: 0.3s;
-  }
-
-  /* sidebar hover */
-  .sidebar a:hover {
-    /* font-weight: 700; */
-    color: brown;
-    font-weight: 700;
-  }
-  .sidebar a:active {
-    font-weight: 700;
-  }
-  /* Position and style the close button (top right corner) */
-  .sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 30px;
-    margin-left: 50px;
-  }
-
-  /* The button used to open the sidebar */
-  .openbtn {
-    font-size: 1rem;
-    cursor: pointer;
-    background: #f8f9f9;
-    padding: 10px 15px;
-    border: none;
-  }
-  .menu-socials {
-    display: flex;
-    justify-content: flex-start;
-    gap: 20px;
-    padding: 150px 0 0 50px;
-  }
-  .menu-socials img {
-    background-color: #fff;
-    border-radius: 50%;
-    padding: 10px;
-  }
-  .menu-text {
-    color: #fff;
-    padding: 20px 0 0 50px;
-    font-family: Georama;
-    font-size: 1rem;
-  }
-
-  /* about page */
-  .about-body {
-    margin: 0 auto;
-  }
-  .intro-main {
-    padding-top: 80px;
-  }
-  .intro-head {
-    margin: 80px 0 0 100px;
-  }
-  .intro {
-    font-family: Syncopate;
-    font-weight: 400;
-    font-size: 0.7rem;
-    /* margin-top: 50px; */
-  }
-
-  .img-head h1 {
-    font-family: Syncopate;
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 2.5rem;
-  }
-  .img-head {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  /* .img-head h1 {
-    align-items: ;
-  } */
-  .page-img img {
-    position: relative;
-  }
-  .gradient {
-    /* background-color: #0d111f; */
-    position: absolute;
-    width: 600px;
-    height: 40px;
-    bottom: -70px;
-    /* left: 50px; */
-    background: linear-gradient(360deg, #fff 50%, rgba(255, 255, 255, 0) 100%);
-  }
-
-  .body-text {
-    font-family: Georama;
-    font-size: 1.6rem;
-    margin: 20px 0 20px 0;
-    line-height: 2.7rem;
-  }
 }

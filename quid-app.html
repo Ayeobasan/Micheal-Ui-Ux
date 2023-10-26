@@ -1,78 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quid Mobile App</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Georama:wght@400;500;600;700&family=Syncopate:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="nav-wrapper">
-      <div class="nav">
-        <div
-          class="logo-icon clickable-section"
-          onclick="navigateToPage('index.html')"
-        >
-          <img src="/assets/logo.svg" width="50px" alt="logo" />
-          <p class="logo-text">
-            MICHAEL OLAMIDE/ <span class="page-name">QUID</span>
-          </p>
-        </div>
-        <div id="mySidebar" class="sidebar">
-          <div>
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-              >&times;</a
-            >
-            <a href="index.html">HOME</a>
-            <a href="projects.html">WORKS</a>
-            <a href="about.html">ABOUT ME</a>
-            <a href="#">GAME PORTFOLIO</a>
-          </div>
-          <div class="menu-socials">
-            <img src="./assets/logo-linkedin-nav.svg" alt="linkedin" />
-            <img src="./assets/logo-twitter-nav.svg" alt="twitter" />
-            <img src="./assets/logo-behance-nav.svg" alt="behance" />
-            <img src="./assets/logo-mail-nav.svg" alt="mail" />
-          </div>
-          <div class="menu-text">
-            <p>&copy; 2023 All Rights Reserved. Michael Olamide</p>
-          </div>
-        </div>
 
-        <div id="main">
-          <button class="openbtn" onclick="openNav()">&#9776;</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quid Mobile App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Georama:wght@400;500;600;700&family=Syncopate:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="medailScreen.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="nav-wrapper">
+    <div class="nav">
+      <div class="logo-icon clickable-section" onclick="navigateToPage('index.html')">
+        <img src="/assets/logo.svg" width="50px" alt="logo" />
+        <p class="logo-text">
+          MICHAEL OLAMIDE/ <span class="page-name">QUID</span>
+        </p>
+      </div>
+      <div id="mySidebar" class="sidebar">
+        <div>
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">HOME</a>
+          <a href="projects.html">WORKS</a>
+          <a href="about.html">ABOUT ME</a>
+          <a href="#">GAME PORTFOLIO</a>
+        </div>
+        <div class="menu-socials">
+          <img src="./assets/logo-linkedin-nav.svg" alt="linkedin" />
+          <img src="./assets/logo-twitter-nav.svg" alt="twitter" />
+          <img src="./assets/logo-behance-nav.svg" alt="behance" />
+          <img src="./assets/logo-mail-nav.svg" alt="mail" />
+        </div>
+        <div class="menu-text">
+          <p>&copy; 2023 All Rights Reserved. Michael Olamide</p>
         </div>
       </div>
-    </nav>
-    <!-- body -->
-    <main>
+
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+      </div>
+    </div>
+    <p class="logo-text2">
+          MICHAEL OLAMIDE/ <span st class="page-name">QUID</span>
+        </p>
+  </nav>
+  <!-- body -->
+  <main class="main">
+    <div class="submain">
       <div class="quid-div">
         <div class="quid-app">
-          <div class="hero-text">
-            <div class="quid-heading">
-              <h1>QUID MOBILE APP</h1>
-              <p>Virtual Marketplace for buyers and sellers</p>
-            </div>
-            <div class="quid-details">
-              <div class="role">
-                <p class="job">My Role</p>
-                <p class="jd">Lead Product Designer</p>
+          <div class="quid-flex">
+            <div class="hero-text">
+              <div class="quid-heading">
+                <h1>QUID MOBILE APP</h1>
+                <p>Virtual Marketplace for buyers and sellers</p>
               </div>
-              <div class="industry">
-                <p class="job">Industry</p>
-                <p class="jd">E-Commerce</p>
+              <div class="quid-details">
+                <div class="role">
+                  <p class="job">My Role</p>
+                  <p class="jd">Lead Product Designer</p>
+                </div>
+                <div class="industry">
+                  <p class="job">Industry</p>
+                  <p class="jd">E-Commerce</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="hero-img">
-            <img src="./assets/project-header.png" alt="" width="350px" />
+            <div class="hero-img">
+              <img src="./assets/project-header.png" alt="" width="350px" />
+            </div>
+           
           </div>
         </div>
       </div>
@@ -100,32 +104,31 @@
         </div>
         <div class="project-body-img">
           <img src="./assets/the-team.png" width="900px" alt="the team" />
+          <img src="./assets/small-the-team.png" width="900px" alt="the team" />
         </div>
       </section>
       <section class="design-process">
         <div>
           <h3>Design Process</h3>
-          <img
-            src="./assets/design-process.png"
-            alt="design process details"
-            class="center"
-          />
+          <div class="image-style">
+            <img src="./assets/design-process.png" alt="design process details" class="center" />
+            <img src="./assets/small-design-process.png" alt="design process details" class="center" />
+          </div>
         </div>
       </section>
       <div class="border"></div>
       <section class="product-research">
-        <div>
+        <div class="product">
           <h3>Product Research & Discovery</h3>
           <p>
-            In order to ensure i design with users on mind, it’s of an important
-            part to understand how shopping experiences has evolved over time,
-            and how we can make that an advantage to QIID without having to
-            repeat processes overtime. For QIID, we are committed to building
-            for two different users (Buyers and Sellers) connected to just one
-            single account, and this is why the product research has to come in
-            place.
-            <br />
-            Working alongside the PM assigned to my team, The first approach was
+            In order to ensure i design with users on mind, it’s of an important part to understand how shopping
+            experiences has evolved over time, and how we can make that an advantage to QUID without having to repeat
+            processes overtime. For QUID, we are committed to building for <span>two different users (Buyers and
+              Sellers) </span>,
+            connected to just one single account, and this is why the product research has to come in place.
+
+          </p>
+          <p>Working alongside the PM assigned to my team, The first approach was
             to highlights the most important core features that users are most
             likely to engage with on an e-commerce platform, that provides a
             smooth shopping experiences without glitches, and tools every
@@ -135,11 +138,7 @@
         <div class="product-discovery-card">
           <div class="green-card">
             <div class="greencard-img">
-              <img
-                src="./assets/icon-park-solid_buy.svg"
-                alt="shopping bag icon"
-                width="30px"
-              />
+              <img src="./assets/icon-park-solid_buy.svg" alt="shopping bag icon" width="30px" />
               <p>Buyers</p>
             </div>
             <div class="greencard-p">
@@ -151,11 +150,7 @@
           </div>
           <div class="brown-card">
             <div class="browncard-img">
-              <img
-                src="./assets/ic_round-sell.svg"
-                alt="shopping bag icon"
-                width="30px"
-              />
+              <img src="./assets/ic_round-sell.svg" alt="shopping bag icon" width="30px" />
               <p>Sellers</p>
             </div>
             <div class="browncard-p">
@@ -188,7 +183,7 @@
                 easily find or navigate the products they need.
               </p>
             </div>
-            <div class="block2">
+            <div class="block1" style="background-color:#3c053f; border: 8px solid #77187d;">
               <p>
                 Secure environment and process for payments/transactions, with
                 support enabled incase of disputes and payment errors
@@ -202,15 +197,15 @@
               and thoughts on a product.
             </p>
           </div>
-          <div class="row-3">
-            <div class="block3">
+          <div class="row-1">
+            <div class="block1" style="background-color:#3f2a05; border: 8px solid #90651c;">
               <p>
                 Tracking of orders from both parties (Buyers and Sellers), to
                 streamline fulfilment processes, and identifying issues that
                 occurs during shipping and delivery
               </p>
             </div>
-            <div class="block4">
+            <div class="block1 " style="background-color:#3f2a05; border: 8px solid #90651c;">
               <p>
                 Orders for both parties (buyers and Sellers) should easily be
                 curated for easy follow through without mixups, to scale up
@@ -218,11 +213,17 @@
               </p>
             </div>
           </div>
+          <div class="row-2">
+            <p>
+              Seamless cart and checkout experiences to streamline and simplifies products purchasing for users, which
+              in turn increases sales and smoothen customer experiences, reducing the chances of cart abandonment
+            </p>
+          </div>
         </div>
       </section>
       <div class="border2"></div>
       <section class="painpoints">
-        <div>
+        <div class="painpoint">
           <h3>Painpoints gathered</h3>
           <p>
             I put together an understanding of the different pain points of the
@@ -232,17 +233,20 @@
           </p>
         </div>
         <div class="painpoints-block">
-          <div>
-            <h4>Aesthetics</h4>
-            <div class="border3"></div>
+          <div class="block">
+            <div>
+              <h4>Aesthetics</h4>
+              <div class="border3"></div>
+            </div>
             <ul class="a">
               <li>Unappealing user interfaces/experiences</li>
-              <li>Absence of endless scrolling for products</li>
             </ul>
           </div>
-          <div>
-            <h4>Availaibility</h4>
-            <div class="border3"></div>
+          <div class="block">
+            <div>
+              <h4>Availaibility</h4>
+              <div class="border3"></div>
+            </div>
             <ul class="a">
               <li>
                 Absence of real time updates of new products/items on the app
@@ -252,14 +256,18 @@
               </li>
             </ul>
           </div>
-          <div>
-            <h4>Accessibility</h4>
-            <div class="border3"></div>
+          <div class="block">
+            <div>
+              <h4>Accessibility</h4>
+              <div class="border3"></div>
+            </div>
             <ul class="a">
               <li>
                 Unclear images that aids users/customers understandings of
                 products
               </li>
+              <li>Sanity checks that preve</li>
+
             </ul>
           </div>
         </div>
@@ -276,110 +284,78 @@
           </p>
         </div>
         <div class="caudit-img">
-          <img
-            src="./assets/C-Audit.png"
-            alt="competitive audit"
-            class="center"
-          />
+          <img src="./assets/C-Audit.png" alt="competitive audit" class="center" />
+          <img src="./assets/small-C-Audit.png" alt="competitive audit" class="center" />
         </div>
       </section>
       <section class="product-goals">
         <div class="border4"></div>
         <div class="product-goals-details">
-          <div class="heading4">
-            <h4>Product Goals</h4>
-            <p>
-              Building products that solves varieties of user needs, most
-              especially for a shopping experiences that shapes the buying and
-              selling experiences of users through the implementation of core
-              features, will continually encourage users to continue use such
-              products - Goal of every products
-            </p>
-            <br />
-            <p>
-              To make shopping experiences simple and seamless for buyers to
-              find and purchase the products they need while providing sellers
-              with tools to manage and promote their products. Qiid is also
-              committed to providing a secure environment for all transactions,
-              to build competency, trust and seamless experiences for every
-              users
-            </p>
-          </div>
-
-          <div class="goals">
-            <div>
-              <h4>User Goals</h4>
-              <ul class="b">
-                <li>
-                  <img
-                    src="./assets/ph_push-pin-fill.svg"
-                    alt="push pin"
-                    width="25px"
-                  />Good User interface designed with users on mind
-                </li>
-                <li>
-                  <img
-                    src="./assets/ph_push-pin-fill.svg"
-                    alt="push pin"
-                    width="25px"
-                  />
-                  Improved methods of shopping. purchasing and listings of
-                  Products
-                </li>
-                <li>
-                  <img
-                    src="./assets/ph_push-pin-fill.svg"
-                    alt="push pin"
-                    width="25px"
-                  />
-                  Security, Trust and Safety
-                </li>
-                <li>
-                  <img
-                    src="./assets/ph_push-pin-fill.svg"
-                    alt="push pin"
-                    width="25px"
-                  />
-                  Security and Safety
-                </li>
-              </ul>
+          <div class="details">
+            <div class="heading4">
+              <h4>Product Goals</h4>
+              <p>
+                Building products that solves varieties of user needs, most
+                especially for a shopping experiences that shapes the buying and
+                selling experiences of users through the implementation of core
+                features, will continually encourage users to continue use such
+                products - <span> Goal of every products</span>
+              </p>
+              <br />
+              <p>
+                To make shopping experiences simple and seamless for buyers to
+                find and purchase the products they need while providing sellers
+                with tools to manage and promote their products. Qiid is also
+                committed to providing a secure environment for all transactions,
+                to build competency, trust and seamless experiences for every
+                users
+              </p>
             </div>
-            <div>
-              <h4>Business Goals</h4>
-              <ul class="b">
-                <li>
-                  <img
-                    src="./assets/ph_push-pin-fill.svg"
-                    alt="push pin"
-                    width="25px"
-                  />
-                  Increased users conversations across products
-                </li>
-                <li>
-                  <img
-                    src="./assets/ph_push-pin-fill.svg"
-                    alt="push pin"
-                    width="25px"
-                  />
-                  High Revenue/Income through multiple channels (Promotions/Ads)
-                </li>
-                <li>
-                  <img
-                    src="./assets/ph_push-pin-fill.svg"
-                    alt="push pin"
-                    width="25px"
-                  />
-                  Churn and Bounce rate reductions
-                </li>
-                <li>
-                  <img
-                    src="./assets/ph_push-pin-fill.svg"
-                    alt="push pin"
-                    width="25px"
-                  />
-                  Increased user sign up (Referrals and Feedbacks Channel)
-                </li>
-              </ul>
+
+            <div class="goals">
+              <div>
+                <h4>User Goals</h4>
+                <ul class="b">
+                  <li>
+                    <img src="./assets/ph_push-pin-fill.svg" alt="push pin" width="25px" />
+                    <p>Good User interface designed with users on mind</p>
+                  </li>
+                  <li>
+                    <img src="./assets/ph_push-pin-fill.svg" alt="push pin" width="25px" />
+                    Improved methods of shopping. purchasing and listings of
+                    Products
+                  </li>
+                  <li>
+                    <img src="./assets/ph_push-pin-fill.svg" alt="push pin" width="25px" />
+                    Security, Trust and Safety
+                  </li>
+                  <li>
+                    <img src="./assets/ph_push-pin-fill.svg" alt="push pin" width="25px" />
+                    Security and Safety
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4>Business Goals</h4>
+                <ul class="b">
+                  <li>
+                    <img src="./assets/ph_push-pin-fill.svg" alt="push pin" width="25px" />
+                    Increased users conversations across products
+                  </li>
+                  <li>
+                    <img src="./assets/ph_push-pin-fill.svg" alt="push pin" width="25px" />
+                    High Revenue/Income through multiple channels (Promotions/Ads)
+                  </li>
+                  <li>
+                    <img src="./assets/ph_push-pin-fill.svg" alt="push pin" width="25px" />
+                    Churn and Bounce rate reductions
+                  </li>
+                  <li>
+                    <img src="./assets/ph_push-pin-fill.svg" alt="push pin" width="25px" />
+                    Increased user sign up (Referrals and Feedbacks Channel)
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -411,7 +387,7 @@
           </div>
           <!-- onboarding -->
           <div class="onboarding">
-            <div>
+            <div class="on">
               <h3>Onboardings</h3>
               <p>
                 The onboarding helps users understand what can be done on the
@@ -421,27 +397,18 @@
               </p>
             </div>
             <div class="designs-img">
-              <img
-                src="./assets/quid-mobile-app/onboarding/[Mockup] iPhone 28.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/onboarding/[Mockup] iPhone 25.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/onboarding/[Mockup] iPhone 26.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/onboarding/[Mockup] iPhone 27.png"
-                alt="mobile mockup"
-              />
+              <div class="img-container">
+                <img src="./assets/quid-mobile-app/onboarding/[Mockup] iPhone 28.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/onboarding/[Mockup] iPhone 25.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/onboarding/[Mockup] iPhone 26.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/onboarding/[Mockup] iPhone 27.png" alt="mobile mockup" />
+
+              </div>
             </div>
           </div>
           <!-- Registration -->
-          <div class="registration">
-            <div>
+          <div class="onboarding">
+            <div class="on">
               <h3>Registration & Sign In</h3>
               <p>
                 At these points, users are prompted to enter their personal
@@ -451,35 +418,17 @@
               </p>
             </div>
             <div class="scroll-container2">
-              <img
-                src="./assets/quid-mobile-app/registration/[Mockup] iPhone 27.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/registration/[Mockup] iPhone 28.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/registration/[Mockup] iPhone 23.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/registration/[Mockup] iPhone 25.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/registration/[Mockup] iPhone 24.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/registration/[Mockup] iPhone 26.png"
-                alt="mobile mockup"
-              />
+              <img src="./assets/quid-mobile-app/registration/[Mockup] iPhone 27.png" alt="mobile mockup" />
+              <img src="./assets/quid-mobile-app/registration/[Mockup] iPhone 28.png" alt="mobile mockup" />
+              <img src="./assets/quid-mobile-app/registration/[Mockup] iPhone 23.png" alt="mobile mockup" />
+              <img src="./assets/quid-mobile-app/registration/[Mockup] iPhone 25.png" alt="mobile mockup" />
+              <img src="./assets/quid-mobile-app/registration/[Mockup] iPhone 24.png" alt="mobile mockup" />
+              <img src="./assets/quid-mobile-app/registration/[Mockup] iPhone 26.png" alt="mobile mockup" />
             </div>
           </div>
           <!-- Navigation -->
-          <div class="navigation">
-            <div>
+          <div class="onboarding">
+            <div class="on">
               <h3>In App Navigations</h3>
               <p>
                 Navigations helps to direct the steps of users and help them
@@ -489,27 +438,18 @@
               </p>
             </div>
             <div class="designs-img">
-              <img
-                src="./assets/quid-mobile-app/navigation/[Mockup] iPhone 29.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/navigation/[Mockup] iPhone 30.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/navigation/[Mockup] iPhone 31.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/navigation/[Mockup] iPhone 32.png"
-                alt="mobile mockup"
-              />
+              <div class="img-container">
+                <img src="./assets/quid-mobile-app/navigation/[Mockup] iPhone 29.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/navigation/[Mockup] iPhone 30.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/navigation/[Mockup] iPhone 31.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/navigation/[Mockup] iPhone 32.png" alt="mobile mockup" />
+              </div>
             </div>
           </div>
           <!-- product purchase -->
-          <div class="product-purchase">
-            <div>
+          <div class="onboarding">
+
+            <div class="on">
               <h3>Product Purchasing for buyers</h3>
               <p>
                 Product details page is a critical part of an E-commerce
@@ -524,27 +464,17 @@
               </p>
             </div>
             <div class="designs-img">
-              <img
-                src="./assets/quid-mobile-app/product-purchase/[Mockup] iPhone 33.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/product-purchase/[Mockup] iPhone 34.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/product-purchase/[Mockup] iPhone 35.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/product-purchase/[Mockup] iPhone 29.png"
-                alt="mobile mockup"
-              />
+              <div class="img-container">
+                <img src="./assets/quid-mobile-app/product-purchase/[Mockup] iPhone 33.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/product-purchase/[Mockup] iPhone 34.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/product-purchase/[Mockup] iPhone 35.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/product-purchase/[Mockup] iPhone 29.png" alt="mobile mockup" />
+              </div>
             </div>
           </div>
           <!-- curated-orders -->
-          <div class="curated-orders">
-            <div>
+          <div class="onboarding">
+            <div class="on">
               <h3>Curated Orders</h3>
               <p>
                 To help users keep track of their orders as an inventory,
@@ -554,27 +484,17 @@
               </p>
             </div>
             <div class="designs-img">
-              <img
-                src="./assets/quid-mobile-app/curated-order/[Mockup] iPhone 30.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/curated-order/[Mockup] iPhone 31.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/curated-order/[Mockup] iPhone 32.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/curated-order/[Mockup] iPhone 33.png"
-                alt="mobile mockup"
-              />
+              <div class="img-container">
+                <img src="./assets/quid-mobile-app/curated-order/[Mockup] iPhone 30.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/curated-order/[Mockup] iPhone 31.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/curated-order/[Mockup] iPhone 32.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/curated-order/[Mockup] iPhone 33.png" alt="mobile mockup" />
+              </div>
             </div>
           </div>
           <!-- cart -->
-          <div class="cart">
-            <div>
+          <div class="onboarding">
+            <div class="on">
               <h3>CArt, Checkout and Payments</h3>
               <p>
                 Currently for this version, payment is being handled by external
@@ -582,27 +502,17 @@
               </p>
             </div>
             <div class="designs-img">
-              <img
-                src="./assets/quid-mobile-app/cart/[Mockup] iPhone 34.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/cart/[Mockup] iPhone 35.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/cart/[Mockup] iPhone 36.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/cart/[Mockup] iPhone 37.png"
-                alt="mobile mockup"
-              />
+              <div class="img-container">
+                <img src="./assets/quid-mobile-app/cart/[Mockup] iPhone 34.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/cart/[Mockup] iPhone 35.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/cart/[Mockup] iPhone 36.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/cart/[Mockup] iPhone 37.png" alt="mobile mockup" />
+              </div>
             </div>
           </div>
           <!--tracking -->
-          <div class="tracking">
-            <div>
+          <div class="onboarding">
+            <div class="on">
               <h3>Tracking of orders</h3>
               <p>
                 Users are always curious to know how far or how soon their
@@ -613,27 +523,17 @@
               </p>
             </div>
             <div class="designs-img">
-              <img
-                src="./assets/quid-mobile-app/tracking/[Mockup] iPhone 34.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/tracking/[Mockup] iPhone 35.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/tracking/[Mockup] iPhone 36.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/tracking/[Mockup] iPhone 37.png"
-                alt="mobile mockup"
-              />
+              <div class="img-container">
+                <img src="./assets/quid-mobile-app/tracking/[Mockup] iPhone 34.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/tracking/[Mockup] iPhone 35.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/tracking/[Mockup] iPhone 36.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/tracking/[Mockup] iPhone 37.png" alt="mobile mockup" />
+              </div>
             </div>
           </div>
           <!--withdrawals -->
-          <div class="withdrawals">
-            <div>
+          <div class="onboarding">
+            <div class="on">
               <h3>Withdrawals and transactions</h3>
               <p>
                 For every seller who comes to list on QUID, withdrawing their
@@ -645,38 +545,26 @@
               <h3 class="withdrawal">Updating their wallet info</h3>
             </div>
             <div class="designs-img">
-              <img
-                src="./assets/quid-mobile-app/update-info/[Mockup] iPhone 14-1.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/update-info/[Mockup] iPhone 14.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/update-info/[Mockup] iPhone 14-2.png"
-                alt="mobile mockup"
-              />
+              <div class="img-container">
+                <img src="./assets/quid-mobile-app/update-info/[Mockup] iPhone 14-1.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/update-info/[Mockup] iPhone 14.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/update-info/[Mockup] iPhone 14-2.png" alt="mobile mockup" />
+              </div>
             </div>
-            <div><h3 class="withdrawal">After updating</h3></div>
+            <div class="on">
+              <h3 class="withdrawal">After updating</h3>
+            </div>
             <div class="designs-img">
-              <img
-                src="./assets/quid-mobile-app/update-info/[Mockup] iPhone 14-5.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/update-info/[Mockup] iPhone 14-4.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/update-info/[Mockup] iPhone 14-3.png"
-                alt="mobile mockup"
-              />
+              <div class="img-container">
+                <img src="./assets/quid-mobile-app/update-info/[Mockup] iPhone 14-5.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/update-info/[Mockup] iPhone 14-4.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/update-info/[Mockup] iPhone 14-3.png" alt="mobile mockup" />
+              </div>
             </div>
           </div>
           <!--promotions -->
-          <div class="promotions">
-            <div>
+          <div class="onboarding">
+            <div class="on">
               <h3>Promotions</h3>
               <p>
                 Designing for business is an important and essential factor to
@@ -689,23 +577,16 @@
               </p>
             </div>
             <div class="designs-img">
-              <img
-                src="./assets/quid-mobile-app/promotions/[Mockup] iPhone 14-2.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/promotions/[Mockup] iPhone 14-1.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/promotions/[Mockup] iPhone 14.png"
-                alt="mobile mockup"
-              />
+              <div class="img-container">
+                <img src="./assets/quid-mobile-app/promotions/[Mockup] iPhone 14-2.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/promotions/[Mockup] iPhone 14-1.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/promotions/[Mockup] iPhone 14.png" alt="mobile mockup" />
+              </div>
             </div>
           </div>
           <!--feedbacks -->
-          <div class="feedbacks">
-            <div>
+          <div class="onboarding">
+            <div class="on">
               <h3>Feedbacks</h3>
               <p>
                 It is essential to learn more into the experiences of users who
@@ -716,14 +597,10 @@
               </p>
             </div>
             <div class="designs-img">
-              <img
-                src="./assets/quid-mobile-app/feedbacks/[Mockup] iPhone 14.png"
-                alt="mobile mockup"
-              />
-              <img
-                src="./assets/quid-mobile-app/feedbacks/[Mockup] iPhone 14-1.png"
-                alt="mobile mockup"
-              />
+              <div class="img-container">
+                <img src="./assets/quid-mobile-app/feedbacks/[Mockup] iPhone 14.png" alt="mobile mockup" />
+                <img src="./assets/quid-mobile-app/feedbacks/[Mockup] iPhone 14-1.png" alt="mobile mockup" />
+              </div>
             </div>
           </div>
         </div>
@@ -731,79 +608,61 @@
       <section>
         <div class="project-footer">
           <p>
-            If you read to this point,<span
-              ><img
-                src="./assets/quid-mobile-app/project-footer/bravo frame.png"
-                alt=""
-                width="200px"
-            /></span>
+            If you read to this point,<span><img src="./assets/quid-mobile-app/project-footer/bravo frame.png" alt=""
+                width="200px" /></span>
           </p>
           <p id="text">QUID is live and available on all stores.</p>
-          <div>
-            <img
-              src="./assets/quid-mobile-app/project-footer/playstore (1).png"
-              alt=""
-              width="200px"
-            />
-            <img
-              src="./assets/quid-mobile-app/project-footer/playstore (2).png"
-              alt=""
-              width="200px"
-            />
+          <div class="store">
+            <img src="./assets/quid-mobile-app/project-footer/playstore (1).png" alt="" width="200px" />
+            <img src="./assets/quid-mobile-app/project-footer/playstore (2).png" alt="" width="200px" />
           </div>
         </div>
       </section>
-    </main>
+    </div>
+  </main>
 
-    <section
-      style="margin-bottom: 50px"
-      class="next-project"
-      onclick="navigateToPage('quid-pay.html')"
-    >
-      <div>View Next Project</div>
-    </section>
+  <section style="margin-bottom: 50px" class="next-project" onclick="navigateToPage('quid-pay.html')">
+    <div>View Next Project</div>
+  </section>
 
-    <!-- footer -->
-    <footer>
-      <div class="footer-details">
-        <p class="footer-text">HIT ME UP, LET's WORK TOGETHER</p>
-        <p class="email">
-          olumichael1998@gmail.com
-          <span> <img src="./assets/copy-icon.svg" alt="copy-icon" /> </span>
-        </p>
-      </div>
-      <div class="socials">
-        <p>
-          <span><img src="./assets/logo-twitter.svg" alt="twitter logo" /></span
-          >TWITTER
-        </p>
-        <p>
-          <span
-            ><img src="./assets/logo-linkedin.svg" alt="linkedin logo" /></span
-          >LINKEDIN
-        </p>
-        <p>
-          <span><img src="./assets/logo-behance.svg" alt="behance logo" /></span
-          >BEHANCE
-        </p>
-      </div>
-    </footer>
-    <!-- jaavascript -->
-    <script>
-      function openNav() {
-        document.getElementById("mySidebar").style.width = "500px";
-        document.getElementById("main").style.marginLeft = "500px";
-      }
+  <!-- footer -->
+  <footer>
+    <div class="footer-details">
+      <p class="footer-text">HIT ME UP, LET's WORK TOGETHER</p>
+      <p class="email">
+        olumichael1998@gmail.com
+        <span> <img src="./assets/copy-icon.svg" alt="copy-icon" /> </span>
+      </p>
+    </div>
+    <div class="socials">
+      <p>
+        <span><img src="./assets/logo-twitter.svg" alt="twitter logo" /></span>TWITTER
+      </p>
+      <p>
+        <span><img src="./assets/logo-linkedin.svg" alt="linkedin logo" /></span>LINKEDIN
+      </p>
+      <p>
+        <span><img src="./assets/logo-behance.svg" alt="behance logo" /></span>BEHANCE
+      </p>
+    </div>
+  </footer>
+  <!-- jaavascript -->
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "500px";
+      document.getElementById("main").style.marginLeft = "500px";
+    }
 
-      /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-      function closeNav() {
-        document.getElementById("mySidebar").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
-      }
+    /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
 
-      function navigateToPage(pageURL) {
-        window.location.href = pageURL;
-      }
-    </script>
-  </body>
+    function navigateToPage(pageURL) {
+      window.location.href = pageURL;
+    }
+  </script>
+</body>
+
 </html>
