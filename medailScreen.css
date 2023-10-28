@@ -45,6 +45,13 @@
     margin: auto;
     align-items: center;
   }
+  .job {
+    padding-bottom: 5px;
+  }
+  .quid-details {
+      gap: 10px;
+    padding: 0;
+}
   .quid-div .quid-app .quid-flex {
     padding: 0px;
     /* height: auto; */
@@ -147,7 +154,7 @@
   }
   .discovery h3 {
     font-size: 20px;
-    padding: 20px 0px;
+    padding: 10px 0px;
   }
   .product-research p {
     font-size: 19px;
@@ -218,14 +225,14 @@
     margin: auto;
   }
   .product-goals {
-    margin-top: 2rem;
+    margin-top: 0rem;
   }
   .border4 {
     margin-top: 30px;
   }
   .product-goals-details {
     background-color: #f8f8f9;
-    padding: 0px 16px 70px;
+    padding: 0px 16px 0px;
   }
   .product-goals-details .details {
     background-color: #fff;
@@ -257,13 +264,20 @@
     font-size: 20px;
   }
   .designs-heading {
-    padding: 50px 0px;
+    padding: 0px 0px;
     width: 88%;
     margin: auto;
     height: auto;
   }
+  .border5 {
+    background-color: #472878;
+    height: 20px;
+    margin: 20px 0px;
+  }
+
   .onboarding {
     padding: 0px 0px 0px;
+    margin-top: 20px;
   }
   .on {
     padding: 50px 50px 30px 80px;
@@ -291,6 +305,9 @@
   .designs-img {
     overflow: auto;
     background: #fff;
+  }
+  .img-container {
+    padding-top: 20px;
   }
   .scroll-container2 {
     overflow: auto;
@@ -400,7 +417,7 @@
   .row-1 {
     display: flex;
     justify-content: space-between;
-    margin: 70px 0px;
+    margin: 20px 0px;
   }
 
   /* fidelity */
@@ -650,14 +667,14 @@
     width: 50%;
   }
   .project-body h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
   .project-body p {
     font-size: 15px;
     line-height: 1.5rem;
   }
   .project-body-img {
-    margin: 50px 0 100px 0;
+    margin: 20px 0;
   }
   .body-details .project-body-img img {
     margin: 0px;
@@ -700,18 +717,21 @@
     line-height: 2rem;
   }
   .on {
-    padding: 50px 0px;
+    padding: 20px 0px;
     width: 88%;
     margin: auto;
   }
   .on2 {
-    padding: 50px 0px;
+    padding: 20px 0px;
     width: 88%;
     margin: auto;
   }
-
+  .onboarding2 h3 {
+    font-size: 20px;
+}
   .designs-img {
     width: 100%;
+    padding-top: 0px;
   }
   .footer-details {
     width: 80%;
@@ -771,6 +791,10 @@
   }
 }
 @media screen and (max-width: 780px) {
+  #mySidebar {
+    /* width: 70%;  */
+    /* background-color: red;Set the desired width for smaller screens */
+  }
   .name h1 {
     font-size: 6rem;
   }
@@ -787,7 +811,7 @@
 
   .quid-details {
     flex-direction: column;
-    gap: 0;
+    /* gap: 0; */
     margin-top: 10px;
   }
   .quid-heading h1 {
@@ -814,8 +838,18 @@
     width: 100%;
     margin-bottom: 0px;
   }
+  .c-audit h3 {
+    font-size: 15px;
+  }
+  .painpoints h3{
+    font-size: 15px;
+  }
+  .c-audit p {
+    font-size: 15px;
+    line-height: 1.3;
+  }
   .product-research {
-    padding: 50px 0px;
+    padding: 17px 0px 0px;
     width: 87%;
     margin: auto;
   }
@@ -892,11 +926,14 @@
   }
   .ia-details {
     background-color: white;
-    padding: 50px;
+    padding: 30px;
   }
   .ia-details p {
     font-size: 15px;
     line-height: 1.5;
+  }
+  .ia-details h3 {
+    font-size: 15x;
   }
   .painpoint p {
     font-size: 18px;
@@ -919,7 +956,7 @@
     width: 25%;
   }
   .scroll-container {
-    padding: 20px;
+    padding: 13px;
     display: flex;
     gap: 30px;
   }
@@ -1061,11 +1098,17 @@
     width: 90%;
     margin: auto;
   }
-  .Personal-details h2{
+  .Personal-details h2 {
     width: 48%;
   }
+  .onboarding2 h3 {
+    font-size: 15px;
+}
 }
 @media screen and (max-width: 680px) {
+  #mySidebar {
+    /* width: 60%; Set the desired width for smaller screens */
+  }
   .painpoints-block {
     justify-content: end;
     flex-direction: column;
@@ -1115,6 +1158,21 @@
   }
 }
 @media screen and (max-width: 630px) {
+  .h1{
+    line-height: 1;
+  }
+  .pass {
+    
+  padding: 50px 10px;
+   width:90% ;
+  }
+  .nav-bar {
+    gap: 35px;
+    margin-top: 30px;
+}
+#mySidebar {
+  /* width: 70%; Set the desired width for smaller screens */
+}
   .name {
     display: block;
     align-items: center;
@@ -1190,14 +1248,14 @@
   }
   .ia-details {
     background-color: white;
-    padding: 60px 40px;
+    /* padding: 60px 40px; */
   }
   .img-container {
     display: flex;
     width: 100%;
     justify-content: space-between;
     gap: 40px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     margin: 0px 20px;
   }
   .designs-img img {
@@ -1304,10 +1362,25 @@
   .next-project {
     width: 40%;
     padding: 24px;
-    font-size: 10px;
+    /* font-size: 10px; */
   }
+  .quid-details {
+    /* display: flex; */
+    /* gap: 0px; */
+    padding: 0;
+    margin-top: 10px;
+}
+
 }
 @media screen and (max-width: 515px) {
+  .pass {
+    
+    padding: 175px 10px;
+     width:100% ;
+    }
+    #mySidebar {
+      /* width: 100%; Set the desired width for smaller screens */
+    }
   .name {
     padding-top: 70px;
   }
@@ -1348,6 +1421,12 @@
     margin: 0px;
     width: 100%;
     gap: 50px;
+    padding: 0px 0px !important;
+  }
+  .product-research {
+    padding: 10px 0px;
+    width: 87%;
+    margin: auto;
   }
   .row-cards .row-1 {
     flex-direction: column;
@@ -1425,11 +1504,12 @@
     width: 100%;
     justify-content: space-between;
     gap: 40px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
   }
-  .designs-img img {
+
+  /* .designs-img img {
     width: 50%;
-  }
+  } */
   .border4 {
     width: 93%;
   }
@@ -1438,8 +1518,8 @@
     line-height: 2;
   }
   .store {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     gap: 20px;
   }
   .footer-details p {
@@ -1456,9 +1536,19 @@
 
   .disclaimer,
   .learnings {
-    padding: 20px;
-    width: 80%;
+    padding: 10px;
+    width: 75%;
   }
+  .learnings img {
+    width: 30px;
+  }
+  .disclaimer h3,
+  .learnings h3 {
+    font-size: 13px;
+  }
+  .disclaimer h3, .learnings p {
+    font-size: 12px;
+}
   .pd-card {
     width: 80%;
     padding: 10px;
@@ -1498,9 +1588,9 @@
     font-size: 12px;
   }
   .right .Pelumi img {
-width: 20%;
-}
- 
+    width: 20%;
+  }
+
   .Personal-details .left {
     width: 100%;
     margin: auto;
@@ -1565,7 +1655,7 @@ width: 20%;
 }
 @media screen and (max-width: 425px) {
   .body-details {
-    padding: 50px 0px;
+    padding: 0px 0px;
     width: 87%;
     /* margin: auto; */
   }
@@ -1623,7 +1713,7 @@ width: 20%;
   }
   .ia-details {
     background-color: white;
-    padding: 60px 20px;
+    padding: 40px 20px;
   }
   #scroll-container img {
     width: 100%;
@@ -1665,6 +1755,8 @@ width: 20%;
     border: 0px solid #5021ef;
     background-color: #ebeefe;
     padding: 0px;
+        border-radius: 0px;
+    overflow: auto;
   }
 
   .caudit-img img:nth-child(1) {
@@ -1672,6 +1764,8 @@ width: 20%;
   }
   .caudit-img img:nth-child(2) {
     display: block;
+    width: 50rem;
+    
   }
   .body-details .project-body-img img {
     margin: 0px;
@@ -1716,6 +1810,24 @@ width: 20%;
 }
 
 @media screen and (max-width: 400px) {
+  #mySidebar{
+    text-align: right;
+    align-items: end;
+  }
+  .list-item{
+    padding-right: 20px;
+
+    /* background-color: blue; */
+  }
+  .menu-socials{
+    padding-right: 20px;
+
+  }
+  .menu-text P{
+    padding-right: 20px;
+
+    font-size: 12px;
+  }
   .name h1 {
     font-size: 3rem;
   }
@@ -1731,7 +1843,7 @@ width: 20%;
   .next-project {
     width: 60%;
     padding: 24px;
-    font-size: 10px;
+    /* font-size: 10px; */
   }
   .footer-details .email {
     font-size: 11px;
@@ -1740,7 +1852,7 @@ width: 20%;
     font-size: 15px;
   }
   .project-footer p {
-    font-size: 20px;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 350px) {

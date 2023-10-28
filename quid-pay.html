@@ -26,12 +26,12 @@
         </p>
       </div>
       <div id="mySidebar" class="sidebar">
-        <div>
+        <div class="list-item">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <a href="index.html">HOME</a>
           <a href="projects.html">WORKS</a>
           <a href="about.html">ABOUT ME</a>
-          <a href="#">GAME PORTFOLIO</a>
+          <a href="sdssdd" download="">Resume</a>
         </div>
         <div class="menu-socials">
           <img src="./assets/logo-linkedin-nav.svg" alt="linkedin" />
@@ -101,11 +101,12 @@
           </p>
         </div>
       </section>
-      <section class="design-process">
+      <section class="design-process " style="margin-top: 10px;">
         <div>
           <h3>Design Process</h3>
           <div class="image-style">
             <img src="./assets/design-process.png" alt="design process details" class="center" />
+            <img src="./assets/small-design-process.png" alt="design process details" class="center" />
           </div>
         </div>
       </section>
@@ -255,7 +256,7 @@
       <section>
         <div class="border5"></div>
         <div class="designs">
-          <div class="designs-heading">
+          <div class="ia-details">
             <h3>Designs</h3>
             <p>
               An end to end representation/workflow of the information
@@ -496,7 +497,7 @@
           </p>
           <p id="text">QUID is live and available on all stores.</p>
           <div class="store">
-            <img class="" src="./assets/quid-mobile-app/project-footer/playstore (1).png" alt="" width="200px" />
+            <img src="./assets/quid-mobile-app/project-footer/playstore (1).png" alt="" width="200px" />
             <img src="./assets/quid-mobile-app/project-footer/playstore (2).png" alt="" width="200px" />
           </div>
         </div>
@@ -533,22 +534,7 @@
     </div>
   </footer>
   <!-- jaavascript -->
-  <script>
-    function openNav() {
-      document.getElementById("mySidebar").style.width = "500px";
-      document.getElementById("main").style.marginLeft = "500px";
-    }
-
-    /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-    function closeNav() {
-      document.getElementById("mySidebar").style.width = "0";
-      document.getElementById("main").style.marginLeft = "0";
-    }
-
-    function navigateToPage(pageURL) {
-      window.location.href = pageURL;
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 
 </html>

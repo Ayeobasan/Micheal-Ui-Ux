@@ -23,12 +23,12 @@
         </p>
       </div>
       <div id="mySidebar" class="sidebar">
-        <div>
+        <div class="list-item">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <a href="index.html">HOME</a>
           <a href="projects.html">WORKS</a>
           <a href="about.html">ABOUT ME</a>
-          <a href="#">GAME PORTFOLIO</a>
+          <a href="sdssdd" download="">Resume</a>
         </div>
         <div class="menu-socials">
           <img src="./assets/logo-linkedin-nav.svg" alt="linkedin" />
@@ -46,7 +46,7 @@
       </div>
     </div>
     <p class="logo-text2">
-      MICHAEL OLAMIDE/ <span class="page-name">QUID</span>
+      MICHAEL OLAMIDE/ <span class="page-name">Music</span>
     </p>
   </nav>
   <main>
@@ -56,9 +56,9 @@
           <div class="hero-text">
             <div class="quid-heading">
               <h1>MUSIQ Streaming App</h1>
-              <p>Cross-Platform music application streaming experience</p>
+              <p style="padding: 0;">Cross-Platform music application streaming experience</p>
             </div>
-            <div class="quid-details">
+            <div class="quid-details" style="padding: 10px 0px; margin: 10px 0px;">
               <div class="role">
                 <p class="job">My Role</p>
                 <p class="jd">Lead Product Designer</p>
@@ -241,8 +241,8 @@
         </p>
       </div>
       <div class="caudit-img">
-        <img src="./assets/musiq-app/CA.png" alt="competitive audit" class="center" />
-        <img src="./assets/small-C-Audit.png" alt="competitive audit" class="center" />
+        <img src="./assets/C-Audit.png" alt="competitive audit" class="center" />
+        <img src="./assets/fidelity-bank/small-C-Audit.png" alt="competitive audit" class="center" />
       </div>
     </section>
     <!-- user personas -->
@@ -383,101 +383,7 @@
 
     </section>
     <!-- product goals -->
-    <!-- <section class="product-goals">
-      <div class="border4"></div>
-      <div style="background: white;" class="product-goals-details">
-        <div class="heading4">
-          <h4>Product Goals</h4>
-          <p>
-            Building products that solves varieties of user needs, most
-            especially for a music streaming platform that shapes the
-            listening experiences of its users through the implementation of
-            core features, will continually encourage users to love music, and
-            stay consistent using the such platforms - Goal of every products.
-          </p>
-        </div>
-
-        <div class="goals new">
-          <div>
-            <h4>User Goals</h4>
-            <ul class="b">
-              <li>
-                <img src="./assets/ph_push-pin-fill.svg" alt="push pin" width="25px" />
-                <div>
-                  User Interface built with users on mind:
-                  <strong>Designing any engaging interfaces with users in mind,
-                    using clear, and distincts elements across all design
-                    layouts</strong>
-                  -
-                  <strong style="color: #aa31f5">
-                    Designing for accessibility and inclusivity
-                  </strong>
-                </div>
-              </li>
-              <li>
-                <img src="./assets/ph_push-pin-fill.svg" alt="push pin" width="25px" />
-                <div>
-                  Curated Library List:
-                  <strong>Staying organised is the goal of every user. A curated
-                    library that organises the lists of songs created or saved
-                    by users, will help users find thier needs at ease without
-                    experiencing any frustrations</strong>
-                  -
-                  <strong style="color: #aa31f5">
-                    Accessibility and easeness to features
-                  </strong>
-                </div>
-              </li>
-              <li>
-                <img src="./assets/ph_push-pin-fill.svg" alt="push pin" width="25px" />
-                <div>
-                  In App Extensive Features:
-                  <strong>Designing an engaging interfaces with users in mind,
-                    using clear, and distincts elements across all design
-                    layouts</strong>
-                  -
-                  <strong style="color: #aa31f5">
-                    Designing for accessibility and inclusivity
-                  </strong>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4>Business Goals</h4>
-            <ul class="b">
-              <li>
-                <img src="./assets/ph_push-pin-fill.svg" alt="push pin" width="25px" />
-                <div>
-                  Premium Paid Features:
-                  <strong>
-                    In app features available only on premium subscription.
-                    This further generates revenue for product sustainability
-                  </strong>
-                </div>
-              </li>
-              <li>
-                <img src="./assets/ph_push-pin-fill.svg" alt="push pin" width="25px" />
-                <div>
-                  In App Ads:
-                  <strong>
-                    Designing an engaging interfaces with users in mind, using
-                    clear, and distincts elements across all design layouts
-                  </strong>
-                  -
-                  <strong style="color: #aa31f5">
-                    Designing for accessibility and inclusivity
-                  </strong>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <section class="product-goals">
-      <div class="border4"></div>
+    
       <div class="product-goals-details">
         <div class="details">
           <div class="heading4">
@@ -617,11 +523,11 @@
     <section>
       <div class="border5"></div>
       <div class="designs">
-        <div class="designs-heading">
+        <div class="ia-details">
           <h3>Designs</h3>
           <p>
-            An end to end representation/workflow of the information architecture showing the walkthrough of one phase
-            to other other
+            An end to end representation/workflow of the information
+            architecture showing the walkthrough of one phase to other other
           </p>
         </div>
         <!-- onboarding -->
@@ -843,21 +749,8 @@
   </footer>
 
   <!-- javascript -->
-  <script>
-    function openNav() {
-      document.getElementById("mySidebar").style.width = "500px";
-      document.getElementById("main").style.marginLeft = "500px";
-    }
-
-    /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-    function closeNav() {
-      document.getElementById("mySidebar").style.width = "0";
-      document.getElementById("main").style.marginLeft = "0";
-    }
-    function navigateToPage(pageURL) {
-      window.location.href = pageURL;
-    }
-  </script>
+  <script src="script.js">
+  </script>>
 </body>
 
 </html>
