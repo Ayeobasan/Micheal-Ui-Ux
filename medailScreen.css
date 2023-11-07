@@ -3,11 +3,29 @@
     /* background-color: red; */
     overflow-x: hidden;
   }
+  .tag {
+    font-size: 1.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: #0d111f;
+    color: #fff;
+    height: 7vh;
+    width: 100%;
+    overflow: hidden;
+  }
   .logo-text2 {
     display: none;
   }
-  .sidebar .closebtn {
+  .sidebar {
     top: -40px;
+    margin-left: 0px;
+  }
+  .closebtn {
+    /* top: -40px; */
     margin-left: 0px;
   }
   .sidebar {
@@ -26,8 +44,26 @@
     height: 87vh;
     width: 100%;
   }
+  .home-socials {
+    position: absolute;
+    bottom: 5rem;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
   #scroll-block {
     overflow: hidden;
+  }
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    width: 100%;
+    border-bottom: #0a1027;
+    margin-top: 30px;
   }
   .nav-wrapper .nav {
     padding: 10px;
@@ -49,9 +85,9 @@
     padding-bottom: 5px;
   }
   .quid-details {
-      gap: 10px;
+    /* gap: 10px; */
     padding: 0;
-}
+  }
   .quid-div .quid-app .quid-flex {
     padding: 0px;
     /* height: auto; */
@@ -388,6 +424,14 @@
     height: 70vh;
     justify-content: space-between;
   }
+  .project-group {
+    margin-top: 40px;
+    height: 40vh;
+  }
+  .project img {
+    width: 500px;
+    margin-top: 20px;
+  }
   /* .project {
     background-color: #fafafe;
     padding: 0px;
@@ -596,14 +640,24 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .name h1 {
-    font-size: 7.5rem;
-  }
-  .name h2 {
-    font-size: 45px;
+ 
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    width: 100%;
+    border-bottom: #0a1027;
+    margin-top: 50px;
   }
   .home-socials {
-    padding-top: 60px;
+    position: absolute;
+    /* bottom: 10rem; */
+    align-items: center;
+    margin: auto;
+    width: 100%;
   }
   .quid-div .quid-app .quid-flex {
     align-items: start;
@@ -646,6 +700,12 @@
   }
 }
 @media screen and (max-width: 980px) {
+  .name h1 {
+    font-size: 7.5rem;
+  }
+  .name h2 {
+    font-size: 45px;
+  }
   .quid-div .quid-app {
     /* height: auto; */
     align-items: center;
@@ -728,7 +788,7 @@
   }
   .onboarding2 h3 {
     font-size: 20px;
-}
+  }
   .designs-img {
     width: 100%;
     padding-top: 0px;
@@ -791,6 +851,9 @@
   }
 }
 @media screen and (max-width: 780px) {
+  .nav-bar {
+    flex-direction: column;
+}
   #mySidebar {
     /* width: 70%;  */
     /* background-color: red;Set the desired width for smaller screens */
@@ -812,7 +875,7 @@
   .quid-details {
     flex-direction: column;
     /* gap: 0; */
-    margin-top: 10px;
+    /* margin-top: 10px; */
   }
   .quid-heading h1 {
     font-size: 33px;
@@ -841,7 +904,7 @@
   .c-audit h3 {
     font-size: 15px;
   }
-  .painpoints h3{
+  .painpoints h3 {
     font-size: 15px;
   }
   .c-audit p {
@@ -990,6 +1053,13 @@
     font-size: 13px;
     margin: 20px 0px;
   }
+  .musiq-ia {
+    padding: 20px;
+    overflow: scroll;
+  }
+  .musiq-ia img {
+    width: 700px;
+  }
   /* fidelity */
 
   .disclaimer h3,
@@ -1103,7 +1173,7 @@
   }
   .onboarding2 h3 {
     font-size: 15px;
-}
+  }
 }
 @media screen and (max-width: 680px) {
   #mySidebar {
@@ -1158,21 +1228,20 @@
   }
 }
 @media screen and (max-width: 630px) {
-  .h1{
+  .h1 {
     line-height: 1;
   }
   .pass {
-    
-  padding: 50px 10px;
-   width:90% ;
+    padding: 50px 10px;
+    width: 90%;
   }
   .nav-bar {
     gap: 35px;
-    margin-top: 30px;
-}
-#mySidebar {
-  /* width: 70%; Set the desired width for smaller screens */
-}
+    /* margin-top: 30px; */
+  }
+  #mySidebar {
+    /* width: 70%; Set the desired width for smaller screens */
+  }
   .name {
     display: block;
     align-items: center;
@@ -1364,23 +1433,24 @@
     padding: 24px;
     /* font-size: 10px; */
   }
-  .quid-details {
-    /* display: flex; */
-    /* gap: 0px; */
+  /* .quid-details {
+    display: flex;
+    gap: 0px;
     padding: 0;
     margin-top: 10px;
-}
-
+  } */
 }
 @media screen and (max-width: 515px) {
+  .cursor {
+    display: none;
+  }
   .pass {
-    
     padding: 175px 10px;
-     width:100% ;
-    }
-    #mySidebar {
-      /* width: 100%; Set the desired width for smaller screens */
-    }
+    width: 100%;
+  }
+  #mySidebar {
+    /* width: 100%; Set the desired width for smaller screens */
+  }
   .name {
     padding-top: 70px;
   }
@@ -1395,7 +1465,20 @@
   }
   .nav-bar {
     flex-direction: column;
+    /* margin-top: 30px; */
   }
+  .home-socials {
+    position: absolute;
+    bottom: 6rem;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    gap: 5px;
+  }
+
+  /* .home-socials {
+    padding-top: 90px;
+  } */
   .logo-icon {
     flex-direction: column;
   }
@@ -1546,9 +1629,10 @@
   .learnings h3 {
     font-size: 13px;
   }
-  .disclaimer h3, .learnings p {
+  .disclaimer h3,
+  .learnings p {
     font-size: 12px;
-}
+  }
   .pd-card {
     width: 80%;
     padding: 10px;
@@ -1651,6 +1735,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+    height: 70vh;
   }
 }
 @media screen and (max-width: 425px) {
@@ -1755,7 +1840,7 @@
     border: 0px solid #5021ef;
     background-color: #ebeefe;
     padding: 0px;
-        border-radius: 0px;
+    border-radius: 0px;
     overflow: auto;
   }
 
@@ -1765,7 +1850,6 @@
   .caudit-img img:nth-child(2) {
     display: block;
     width: 50rem;
-    
   }
   .body-details .project-body-img img {
     margin: 0px;
@@ -1807,23 +1891,27 @@
     gap: 20px;
   }
   /* project */
+  .MIC {
+    position: relative;
+    height: 93vh;
+    z-index: 99;
+  }
 }
 
 @media screen and (max-width: 400px) {
-  #mySidebar{
+  #mySidebar {
     text-align: right;
     align-items: end;
   }
-  .list-item{
+  .list-item {
     padding-right: 20px;
 
     /* background-color: blue; */
   }
-  .menu-socials{
+  .menu-socials {
     padding-right: 20px;
-
   }
-  .menu-text P{
+  .menu-text P {
     padding-right: 20px;
 
     font-size: 12px;
@@ -1854,6 +1942,11 @@
   .project-footer p {
     font-size: 12px;
   }
+  .MIC {
+    position: relative;
+    height: 93vh;
+    z-index: 99;
+  }
 }
 @media screen and (max-width: 350px) {
   .footer-details .email {
@@ -1875,8 +1968,26 @@
   .logo-text2 span {
     font-size: 18px;
   }
+  .home-socials {
+    position: absolute;
+    bottom: 6.5rem;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 300px) {
+  .home-socials {
+    position: absolute;
+    bottom: 7rem;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    gap: 2px;
+  }
+  .home-socials img{
+    width: 40%;
+  }
   .name h1 {
     font-size: 2rem;
   }
@@ -1884,7 +1995,7 @@
     font-size: 20px;
   }
   .nav-bar a {
-    font-size: 20px;
+    /* font-size: 20px; */
   }
   .name p {
     font-size: 10px;

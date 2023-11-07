@@ -5,12 +5,30 @@
 .body {
   text-align: center;
 }
+.trailing-cursor{
+  background-color: red;
+  width: 20px ;
+}
 
 .h1 {
   font-size: 1rem;
-  font-family: sans-serif;
+  font-family: Georama;
+
 }
 .form {
+}
+/*  */
+
+
+.cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: #0A1027; /* Set the color to red */
+  border-radius: 50%;
+  pointer-events: none; /* Allows interaction through the cursor */
+  transform: translate(-50%, -50%); /* Center the cursor on the pointer */
+  z-index: 9998; /* Ensure the trailing cursors are behind the main cursor */
 }
 
 #password-form {
@@ -26,9 +44,6 @@
   flex-direction: column;
   align-items: center;
   padding: 10px 50px;
-  box-shadow: 2px 8px 30px 1px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 2px 8px 30px 1px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 2px 8px 30px 1px rgba(0, 0, 0, 0.5);
   background-color: white;
   box-sizing: border-box;
   line-height: 4;
@@ -36,7 +51,7 @@
 #password-form input {
   width: 70%;
   border: #f8f9f9;
-  background-color: #e8eaec;
+  background-color: #F8F9F9;
 }
 
 #password {
@@ -63,7 +78,22 @@ body {
   color: #0a1027;
   width: 100%;
 }
-
+.line {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  z-index: 99;
+  /* flex-direction: column; */
+  width: 90%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.line img {
+  /* width: 100%; */
+  height: 87vh;
+}
 header {
   height: 85vh;
   width: 100%;
@@ -126,12 +156,23 @@ h1 {
   padding: 10px;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  /* gap: 0px; */
   background: #0d111f;
   color: #fff;
   height: 10vh;
   width: 100%;
   overflow: hidden;
+}
+.tap1{
+  /* height: auto; */
+  display: flex;
+  gap: 50px;
+  /* background-color: red; */
+  /* width: 100%; */
+}
+.tap1 p{
+  /* font-size: 20px; */
+  /* padding: 0px 20px; */
 }
 
 /* text animation */
@@ -150,7 +191,16 @@ h1 {
   }
 }
 /* text animation */
-
+.MIC {
+  position: relative;
+  height: 100vh;
+  z-index: 99;
+}
+#scroll-block {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 .nav-bar {
   display: flex;
   flex-direction: row;
@@ -165,7 +215,7 @@ h1 {
 .nav-bar a {
   /* margin-right: 70px; */
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: Georama;
   text-decoration: none;
   color: #0a1027;
@@ -173,9 +223,8 @@ h1 {
   justify-content: space-between; */
 }
 a:hover {
-  text-decoration: 2px solid underline;
+  text-decoration: 2px solid underline #090f2f;
   cursor: pointer;
-  color: brown;
 }
 
 /* .container {
@@ -232,10 +281,13 @@ a:hover {
   overflow-x: hidden;
   transition: 0.5s;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   flex-direction: column;
-  text-align: center;
+  /* text-align: center; */
   justify-content: space-evenly;
+}
+.list-item{
+  align-items: end;
 }
 .closebtn {
   color: white;
@@ -258,7 +310,7 @@ a:hover {
 }
 /* sidebar links */
 .sidebar a {
-  padding: 50px 10px 16px 40px;
+  padding: 30px 10px 16px 40px;
   text-decoration: none;
   font-size: 1.5rem;
   color: #fff;
@@ -269,7 +321,7 @@ a:hover {
 /* sidebar hover */
 .sidebar a:hover {
   /* font-weight: 700; */
-  color: brown;
+  color: white;
   font-weight: 700;
 }
 .sidebar a:active {
@@ -296,7 +348,7 @@ a:hover {
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding: 150px 0 0 50px;
+  padding: 70px 0 0 50px;
 }
 .menu-socials img {
   background-color: #fff;
@@ -416,6 +468,11 @@ footer {
   padding: 8px;
   background: #ecf4ff;
   border-radius: 10px;
+}
+.socials a{
+  color: white;
+list-style: none;
+text-decoration: none;
 }
 
 /* Projects */
@@ -1059,6 +1116,9 @@ li {
 .musiq-ia {
   padding: 50px;
   background: #0f1e2f;
+}
+.musiq-ia img {
+  width: 100%;
 }
 .Ia-img {
   background: #0f1e2f;

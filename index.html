@@ -2,67 +2,116 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Georama:wght@400;500;600;700&family=Syncopate:wght@400;700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="medailScreen.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Page</title>
+
 </head>
 
-<body>
-  <header>
-    <div class="logo">
-      <img src="./assets/logo.svg" alt="logo">
-    </div>
-    <div class="name">
-      <h1>MICHAEL</h1>
-      <h2 class="faint-text">OLAMIDE</h2>
-      <p class="pronouns">(HE/HIM/HIS)</p>
-    </div>
-    </div>
-    <nav>
-      <div class="nav-bar">
-        <a href="about.html">About</a>
-        <a href="projects.html">Works</a>
-        <a href="/images/myw3schoolsimage.jpg" download>Resume</a>
+<body style=" display: flex;
+justify-content: center;
+align-items: center;
+font-family: sans-serif;
+height: 100vh;
+background-color: #F8F8F9;
+margin: 0;">
+    <style>
+        .loader {
+            text-align: center;
 
-        <!-- <a href="#">Game Portfolio</a> -->
-      </div>
-      <div class="home-socials">
-        <a
-          href="https://www.linkedin.com/in/michael-olamide-0a544a202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><img
-            src="./assets/logo-linkedin-nav.svg" alt="linkedin" /></a>
-        <a href=" https://x.com/theonlymichael3?t=BKtBHjjrl2qA8eXHCazmCQ&s=09 ">
-          <img src="./assets/logo-twitter-nav.svg" alt="twitter" />
-        </a>
-        <a href=" behance.net/michaelolamide1 ">
-          <img src="./assets/logo-behance-nav.svg" alt="behance" />
+        }
 
-        </a>
-        <img src="./assets/logo-mail-nav.svg" alt="mail" />
-      </div>
-    </nav>
-  </header>
-  </div>
+        circle {
+        }
 
-  <section>
-    <div id="scroll-block">
-      <div class="tag">
-        <div class="tag" id="scroll-text">
-          <p>UI DESIGN</p>
-          <p>Communication</p>
-          <p>Collaboration</p>
-          <p>Leadership</p>
-          <p>Experience</p>
+        .circle-container {
+            position: relative;
+            width:98px;
+            height: 100px;
+            animation: spin 2s linear infinite;
+            background-color: white;
+            border-radius: 100%;
+        }
+
+        .circle {
+            animation: fill 2s linear forwards;
+        }
+
+        .inner-image {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            width: 60px;
+            height: 80px;
+            border-radius: 50%;
+            margin: auto;
+        }
+
+        .percentage {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        /* @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        } */
+
+        @keyframes fill {
+            from {
+                stroke-dashoffset: 251;
+            }
+
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
+    <div class="loader">
+        <div class="circle-container">
+            <svg class="circle" width="200" height="200">
+                <circle style="background-color: white;" cx="50" cy="50" r="40" fill="white" stroke="#0A1027"
+                    stroke-width="6" stroke-dasharray="251" stroke-dashoffset="251"></circle>
+            </svg>
+            <img src="assets/logo.svg" alt="Your Image" class="inner-image">
         </div>
-      </div>
+        <div class="percentage">0%</div>
     </div>
-  </section>
+    <script>
+        // Function to start the loading animation
+        // Function to start the loading animation
+        // Function to start the loading animation
+        function startLoading() {
+            const circle = document.querySelector('.circle circle');
+            const percentage = document.querySelector('.percentage');
+
+            let counter = 0;
+            const interval = setInterval(() => {
+                counter++;
+                percentage.innerText = `${counter}%`;
+
+                // Calculate the percentage of the circle filled
+                const dashoffset = 251 - (251 * counter) / 100;
+                circle.style.strokeDashoffset = dashoffset;
+
+                if (counter === 100) {
+                    clearInterval(interval);
+                    // Redirect to the home page after 100% is reached
+                    window.location.href = 'home.html';
+                }
+            }, 50); // Adjust the interval to control the animation speed
+        }
+
+        // Call the startLoading function when the page loads
+        window.addEventListener('load', startLoading);
+
+
+    </script>
 </body>
 
 </html>
