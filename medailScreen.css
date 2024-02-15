@@ -3,6 +3,9 @@
     /* background-color: red; */
     overflow-x: hidden;
   }
+  .MIC{
+    overflow: hidden;
+  }
   .tag {
     font-size: 1.7rem;
     display: flex;
@@ -13,7 +16,7 @@
     gap: 50px;
     background: #0d111f;
     color: #fff;
-    height: 7vh;
+    height: 8vh;
     width: 100%;
     overflow: hidden;
   }
@@ -46,7 +49,7 @@
   }
   .home-socials {
     position: absolute;
-    bottom: 5rem;
+    bottom: 6rem;
     align-items: center;
     margin: auto;
     width: 100%;
@@ -147,9 +150,9 @@
     padding: 0px 0px 20px;
   }
   .product-discovery-card {
-    width: 85%;
+    /* width: 85%; */
     margin: auto;
-    padding: 50px 0px !important;
+    padding: 20px 0px !important;
   }
   .product-discovery-card .greencard-img {
     background-color: #f7feed;
@@ -232,7 +235,7 @@
     margin: auto;
   }
   .painpoints-block .block li {
-    /* background-color: red; */
+    /* ntrobackground-color: red; */
     font-size: 18px;
     width: 100%;
   }
@@ -397,8 +400,7 @@
   }
   .about-body {
     margin: 0px;
-    width: 89%;
-    margin: auto;
+    width: 95%;
   }
   .intro-main {
     padding-top: 100px;
@@ -506,6 +508,13 @@
   }
 }
 @media screen and (max-width: 1162px) {
+  .name h1{
+    color: #0a1027;
+    font-size: 10rem;
+    font-family: Syncopate;
+  
+    font-weight: 700;
+  }
   .quid-div .quid-app {
     padding: 10px 0px;
     /* height: auto; */
@@ -521,7 +530,7 @@
   .product-discovery-card {
     width: 100%;
     margin: auto;
-    padding: 50px 0px !important;
+    /* padding: 50px 0px !important; */
   }
   .greencard-img img,
   .browncard-img img {
@@ -576,6 +585,10 @@
   .page-img {
     position: relative;
     width: 500px;
+  }
+  .page-img1 img{
+    height: 70vh;
+    width: 100%;
   }
   .gradient {
     /* background-color: #0d111f; */
@@ -703,8 +716,15 @@
   .name h1 {
     font-size: 7.5rem;
   }
+  .home-socials {
+    position: absolute;
+    bottom: 7rem;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
   .name h2 {
-    font-size: 45px;
+    font-size: 5rem;
   }
   .quid-div .quid-app {
     /* height: auto; */
@@ -851,8 +871,14 @@
   }
 }
 @media screen and (max-width: 780px) {
+  .page-img1 img{
+    height: 50vh;
+    width: 100%;
+  }
   .nav-bar {
     flex-direction: column;
+    margin-top: 30px;
+    gap: 40px;
 }
   #mySidebar {
     /* width: 70%;  */
@@ -1231,6 +1257,7 @@
   .h1 {
     line-height: 1;
   }
+
   .pass {
     padding: 50px 10px;
     width: 90%;
@@ -1375,7 +1402,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
   .img-head h1 {
     font-size: 27px;
@@ -1441,6 +1468,23 @@
   } */
 }
 @media screen and (max-width: 515px) {
+  .intro-main {
+    padding-top: 0px;
+}
+.page-img1 img{
+  height: 50vh;
+  width: 100%;
+  display: none;
+}
+.page-img2 {
+  display: block;
+  padding-top: 150px;
+}
+.page-img2 img{
+
+  height: 65vh;
+  width: 100%;
+}
   .cursor {
     display: none;
   }
@@ -1452,7 +1496,7 @@
     /* width: 100%; Set the desired width for smaller screens */
   }
   .name {
-    padding-top: 70px;
+    padding-top: 30px;
   }
   .name h1 {
     font-size: 4rem;
@@ -1700,7 +1744,6 @@
   .about-body {
     margin: 0px;
     width: 100%;
-    margin: auto;
   }
 
   /* .img-head h1 {
@@ -1893,12 +1936,27 @@
   /* project */
   .MIC {
     position: relative;
-    height: 93vh;
+    height: 92vh;
     z-index: 99;
+  }
+  .Poss{
+    width: 88% !important;
+    margin-top: 20px !important;
+    margin: auto;
+    font-size: 14px !important;
+    /* font-weight: 700; */
   }
 }
 
 @media screen and (max-width: 400px) {
+  .Poss{
+    /* width: 90% !important; */
+    margin-top: 20px !important;
+    margin: auto;
+    font-size: 14px !important;
+    padding-top: 0px !important;
+    /* font-weight: 700; */
+  }
   #mySidebar {
     text-align: right;
     align-items: end;
@@ -1944,7 +2002,7 @@
   }
   .MIC {
     position: relative;
-    height: 93vh;
+    height: 92vh;
     z-index: 99;
   }
 }
