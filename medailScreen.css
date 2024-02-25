@@ -3,9 +3,9 @@
     /* background-color: red; */
     overflow-x: hidden;
   }
-  .MIC{
+  /* .MIC{
     overflow: hidden;
-  }
+  } */
   .tag {
     font-size: 1.7rem;
     display: flex;
@@ -47,13 +47,7 @@
     height: 87vh;
     width: 100%;
   }
-  .home-socials {
-    position: absolute;
-    bottom: 6rem;
-    align-items: center;
-    margin: auto;
-    width: 100%;
-  }
+ 
   #scroll-block {
     overflow: hidden;
   }
@@ -665,13 +659,7 @@
     border-bottom: #0a1027;
     margin-top: 50px;
   }
-  .home-socials {
-    position: absolute;
-    /* bottom: 10rem; */
-    align-items: center;
-    margin: auto;
-    width: 100%;
-  }
+
   .quid-div .quid-app .quid-flex {
     align-items: start;
     margin-top: 0px;
@@ -713,16 +701,14 @@
   }
 }
 @media screen and (max-width: 980px) {
+  .body-text{
+    font-size: 15px;
+    Line-height: 2rem;
+  }
   .name h1 {
     font-size: 7.5rem;
   }
-  .home-socials {
-    position: absolute;
-    bottom: 7rem;
-    align-items: center;
-    margin: auto;
-    width: 100%;
-  }
+
   .name h2 {
     font-size: 5rem;
   }
@@ -870,7 +856,17 @@
     flex-direction: column;
   }
 }
+@media screen and ( max-width: 768px) {
+  .about{
+    flex-direction: column-reverse;
+  }
+}
 @media screen and (max-width: 780px) {
+ 
+  .percentage {
+    font-size: 0px;
+    text-align: left;
+  }
   .page-img1 img{
     height: 50vh;
     width: 100%;
@@ -1254,6 +1250,9 @@
   }
 }
 @media screen and (max-width: 630px) {
+  .MIC{
+    padding: 15px;
+  }
   .h1 {
     line-height: 1;
   }
@@ -1469,7 +1468,7 @@
 }
 @media screen and (max-width: 515px) {
   .intro-main {
-    padding-top: 0px;
+    padding-top: 8rem;
 }
 .page-img1 img{
   height: 50vh;
@@ -1511,15 +1510,7 @@
     flex-direction: column;
     /* margin-top: 30px; */
   }
-  .home-socials {
-    position: absolute;
-    bottom: 6rem;
-    align-items: center;
-    margin: auto;
-    width: 100%;
-    gap: 5px;
-  }
-
+  
   /* .home-socials {
     padding-top: 90px;
   } */
@@ -1782,6 +1773,7 @@
   }
 }
 @media screen and (max-width: 425px) {
+ 
   .body-details {
     padding: 0px 0px;
     width: 87%;
@@ -2026,26 +2018,11 @@
   .logo-text2 span {
     font-size: 18px;
   }
-  .home-socials {
-    position: absolute;
-    bottom: 6.5rem;
-    align-items: center;
-    margin: auto;
-    width: 100%;
-  }
+
 }
 @media screen and (max-width: 300px) {
-  .home-socials {
-    position: absolute;
-    bottom: 7rem;
-    align-items: center;
-    margin: auto;
-    width: 100%;
-    gap: 2px;
-  }
-  .home-socials img{
-    width: 40%;
-  }
+
+  
   .name h1 {
     font-size: 2rem;
   }

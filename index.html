@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="medailScreen.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="./assets/Micheal.jpg" />
 
     <title>Possibilities are limitless.</title>
@@ -19,12 +20,13 @@
   <body
     style="
       display: flex;
-      justify-content: center;
+      justify-content: left;
       align-items: center;
       font-family: sans-serif;
       height: 100vh;
-      background-color: #f8f8f9;
-      margin: 0;
+      background-color: rgb(248,248,249) ;
+
+     
     "
   >
     <style>
@@ -32,11 +34,12 @@
         text-align: center;
         overflow: hidden;
         position: fixed;
+        padding: 20px;
+         margin-left: 5rem;
       }
 
       circle {
       }
-
       .circle-container {
         position: relative;
         width: 98px;
@@ -45,6 +48,7 @@
         background-color: white;
         border-radius: 100%;
         margin: auto;
+        display: none;
       }
 
       .circle {
@@ -60,10 +64,28 @@
         border-radius: 50%;
         margin: auto;
       }
-
-      .percentage {
-        font-size: 24px;
-        margin-top: 10px;
+      @media screen and (max-width: 780px) {
+        .loader {
+        text-align: center;
+        overflow: hidden;
+        position: fixed;
+        padding: 20px;
+         margin-left: 0rem;
+      }
+        .percentage {
+          font-size: 150px;
+        }
+        .Poss{
+          text-align: left;
+        }
+      }
+      @media screen and (max-width: 580px) {
+        .percentage {
+          font-size: 100px;
+        }
+        .Poss{
+          text-align: left;
+        }
       }
 
       /* @keyframes spin {
@@ -103,14 +125,15 @@
         </svg>
         <img src="assets/logo.svg" alt="Your Image" class="inner-image" />
       </div>
-      <div class="percentage">0%</div>
+      <div class="percentage ">0%</div>
       <div
         class="Poss"
         style="
-          font-family: Georama;
+          font-family: Red Hat Text, sans-serif;
           margin: auto;
-          padding-top: 40px;
           font-size: 20px;
+          color: black;
+          
         "
       >
         <i
@@ -128,7 +151,7 @@
         const circle = document.querySelector(".circle circle");
         const percentage = document.querySelector(".percentage");
 
-        let counter = 0;
+        let counter = 50;
         const interval = setInterval(() => {
           counter++;
           percentage.innerText = `${counter}%`;

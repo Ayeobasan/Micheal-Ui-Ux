@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "cli": "^1.0.1",
+    "netlify": "^13.1.14"
   }
 }

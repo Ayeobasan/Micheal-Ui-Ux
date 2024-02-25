@@ -12,6 +12,26 @@
     <link rel="stylesheet" href="medailScreen.css" />
     <link rel="icon" type="image/x-icon" href="./assets/Micheal.jpg" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {},
+          screens: {
+            xxs: "300px",
+            xs: "400px",
+            sm: "480px",
+            xm: "640px",
+            md: "768px",
+            xd: "960px",
+            lg: "992px",
+            xlg: "1110px",
+            xl: "1200px",
+          },
+        },
+      };
+    </script>
+    <link rel="icon" type="image/x-icon" href="./assets/Micheal.jpg" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
   <body>
@@ -26,39 +46,34 @@
         >
           <img src="/assets/logo.svg" width="50px" alt="logo" />
           <p class="logo-text">
-            MICHAEL OLAMIDE/ <span class="page-name">About</span>
+            MICHAEL OLAMIDE/ <span class="font-semibold">About Me</span>
           </p>
         </div>
 
         <div id="mySidebar" class="sidebar">
-          <div class="list-item">
+          <div class="list-item space-y-4">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-              >&times;</a
-            >
+              >&times;
+            </a>
             <a href="index.html">HOME</a>
             <a href="projects.html">WORKS</a>
+            <a href="https://behance.net/michaelolamide98">Icon Designs</a>
+            <a href="https://behance.net/michaelolamide1">Design Shots</a>
             <a href="about.html">ABOUT ME</a>
-
             <a
               href="https://drive.google.com/drive/u/0/folders/1zunWPs3GTtFS8ZXvOr9P66QtoEdhg4os"
-              download=""
               >Resume</a
             >
-            <a href="https://medium.com/@theonlymichael ">GAME PORTFOLIO</a>
-
           </div>
           <div class="menu-socials">
             <a
               href="https://www.linkedin.com/in/michael-olamide-0a544a202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
-              ><img src="./assets/logo-linkedin-nav.svg" alt="linkedin"
-            /></a>
+              ><img src="./assets/logo-linkedin-nav.svg" alt="linkedin" />
+            </a>
             <a
               href=" https://x.com/theonlymichael3?t=BKtBHjjrl2qA8eXHCazmCQ&s=09 "
             >
               <img src="./assets/logo-twitter-nav.svg" alt="twitter" />
-            </a>
-            <a href="https://behance.net/michaelolamide1  ">
-              <img src="./assets/logo-behance-nav.svg" alt="behance" />
             </a>
             <a href="https://medium.com/@theonlymichael ">
               <img src="./assets/logo-medium (1).png" alt="medium" />
@@ -77,67 +92,146 @@
         </div>
       </div>
       <p class="logo-text2">
-        MICHAEL OLAMIDE/ <span class="page-name">About</span>
+        MICHAEL OLAMIDE/<span class="font-semibold">About Me</span>
       </p>
     </nav>
 
     <div class="white">
-      <div class="page-img2">
-        <img src="./assets/Frame 1000001722.png" alt="" />
-    </div>
+      <!-- <div class="page-img2">
+        <img src="./assets/Frame 1000001721.png" alt="" />
+      </div> -->
       <main class="intro-main">
-        
         <div class="intro-head">
           <div class="img-head">
-            <div>
+            <div class="space-y-6">
               <div>
                 <p class="intro1">HELLO,👋</p>
               </div>
-              <h1>
-                I'm Michael Olamide, a Product Designer based in Lagos, Nigeria
-                <sub>
+              <h5 style="line-height: 1.2" class="sm:text-xl md:text-[2.3rem]">
+                I'm Michael Olamide,
+                <span class="md:text-[px] font-bold">
+                  a Product Designer & Iconographer
+                </span>
+                based in Lagos, Nigeria
+                <span>
                   <img
                     src="./assets/flag-nigeria.svg"
                     alt="Nigerian flag"
                     width="50px"
                   />
-                </sub>
-              </h1>
+                </span>
+              </h5>
             </div>
-            <div class="page-img1">
+            <!-- <div class="page-img1">
               <img src="./assets/Frame 1000001721.png" alt="" />
+            </div> -->
           </div>
-        </div>
 
-        <div class="about-body">
-          <p class="body-text">
-            I am passionate about building sustainable products that yields
-            incredible user experiences, and using these experiences to affect
-            the lives of the users positively.
-          </p>
-          <p class="body-text">
-            Having the right mix of creativity, love and passion has led me to
-            finding the right path that greatly defines me, my future and also
-            aligns with it. That chosen path is what i am today, and i have
-            taken as a career - <strong>Product Design.</strong>
-          </p>
-          <p class="body-text">
-            In the last few years, I have worked on various projects across
-            different industry, taking different roles and positions,
-            collaborating and impacting teams positively, through
-            <strong> communication, collaboration and leadership. </strong>
-          </p>
-          <p class="body-text">
-            Outside of my design life, and beyond working as a designer,
-            listening to music is one thing i enjoyed doing most. Also, i enjoy
-            reading and travelling, learning and understand different culture,
-            lifestyles, food, and more importantly, people
-          </p>
-          <p class="body-text">
-            One of my goals as a person and a designer, is to impact the world
-            positively years from now, building safe places and environment for
-            everyone, through design and leadership.
-          </p>
+          <div class="about flex align-middle items-start gap-5">
+            <div class="about-body">
+              <p class="body-text">
+                I am passionate about building sustainable products that yields
+                incredible user experiences, and using these experiences to
+                affect the lives of the users positively.
+              </p>
+              <p class="body-text">
+                Having the right mix of creativity, love, and passion has led me
+                to find the right path that greatly defines me, and my future
+                and also aligns with it. That chosen path is what I am today,
+                and I have taken a career - <strong>Product Design.</strong>
+              </p>
+              <p class="body-text">
+                In my professional and career life, I have worked on various
+                projects across different industry -<strong>
+                  E-commerce, Supply chain and logistics, Fintech, Travel and
+                  Immigration, Ed-tech, and Games </strong
+                >- taking different roles and positions, collaborating and
+                impacting teams positively, through effective communication,
+                collaboration and leadership, crafting effective
+                <strong>UX strategies</strong>
+                that help teams and organizations build successful products.
+              </p>
+              <p class="body-text">
+                I don’t only enjoy designing, I “enjoy speaking also” - I’ve
+                also had the pleasure of speaking at different occasions sharing
+                industry insights and relatable knowledge regards design and the
+                industry, also sharing my story as seen
+                <strong>
+                  <span
+                    ><a
+                      href="https://www.linkedin.com/in/michael-olamide-0a544a202/recent-activity/images/"
+                      >https://www.linkedin.com/in/michael-olamide-0a544a202/recent-activity/images/</a
+                    ></span
+                  ></strong
+                >
+              </p>
+              <p class="body-text">
+                I also manage the
+                <strong class="underline">
+                  <span>
+                    <a href="https://www.linkedin.com/company/bold-community/"
+                      >Bold Community</a
+                    >
+                  </span> </strong
+                >, a vibrant design community dedicated to fostering learning,
+                creativity, and passion. We host monthly workshops and design
+                sessions led by various speakers and special guests, providing a
+                platform for sharing ideas and nurturing talent
+              </p>
+              <ul class="body-text flex gap-4">
+                <li class="underline">
+                  <a
+                    href="https://www.linkedin.com/in/michael-olamide-0a544a202/recent-activity/images/"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li class="underline">
+                  <a
+                    href="https://www.instagram.com/p/Cs0xvtKM3Ye/?igshid=MzRlODBiNWFlZA=="
+                    >Instagram</a
+                  >
+                </li>
+              </ul>
+
+              <i class="py-10 body-text"
+                ><p>But who am i outside my career life?</p></i
+              >
+
+              <p class="body-text">
+                In simple words, I am a super-happy person. In my leisure time,
+                I enjoy listening to music -
+                <span
+                  ><strong
+                  class=" underline"
+                    ><a
+                      href="https://open.spotify.com/playlist/1pYQ8xRjGrjnXlmqEZKz2C?si=MC5SbN9fQQ-8s_GGaHd6Sg&pt=129c5e34ed2f019a912677356162ec27"
+                      >my playlist</a
+                    ></strong
+                  ></span
+                >, and if not music, I enjoy seeing movies. Occasionally, I play
+                the keyboard. Also, traveling and reading are two things I enjoy
+                exploring, learning, and understanding different cultures,
+                lifestyles, and more importantly Food - a foodie “wink
+              </p>
+              <p class="body-text">
+                I possess positive character traits that will foster stronger
+                relationships among my teammates and any organization I find
+                myself to be
+              </p>
+              <p class="body-text">
+                One of my goals as a person and a designer is to impact the
+                world positively years from now, building safe places and
+                environments for everyone, through design and leadership.
+              </p>
+            </div>
+            <div class="lex justify-end items-end ml-auto">
+              <img
+                class="mt-5 sm:w-[70%] md:w-[800px]"
+                src="./assets/Homeimg/Frame 1000001722 (1).png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </main>
     </div>
