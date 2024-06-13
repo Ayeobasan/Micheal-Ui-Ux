@@ -121,10 +121,12 @@ header {
   height: 85vh;
   width: 100%;
 }
+.logo-text33 {
+  display: none;
+}
 .logo-text2 {
   display: none;
 }
-
 .logo {
   display: flex;
   justify-content: left;

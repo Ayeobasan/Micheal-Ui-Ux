@@ -20,7 +20,10 @@
     width: 100%;
     overflow: hidden;
   }
-  .logo-text2 {
+  .logo-text33  {
+    display: none;
+  }
+  .logo-text2  {
     display: none;
   }
   .sidebar {
@@ -1523,6 +1526,13 @@
   .page-name {
     /* font-size: 15px; */
   }
+  .logo-text33  {
+    display: block;
+    font-size: 140%;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
   .logo-text2 {
     display: block;
     font-size: 140%;
@@ -1779,6 +1789,13 @@
     width: 87%;
     /* margin: auto; */
   }
+  .logo-text33  {
+    display: block;
+    font-size: 100%;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
   .logo-text2 {
     display: block;
     font-size: 100%;
@@ -2005,6 +2022,10 @@
   .footer-details p {
     font-size: 20px;
   }
+  .logo-text33  {
+    font-size: 80%;
+    width: 90%;
+  }
   .logo-text2 {
     font-size: 80%;
     width: 90%;
@@ -2015,8 +2036,11 @@
     margin: 0px 0 10px 0;
     width: 95%;
   }
+  .logo-text33 span {
+    font-size: 15px;
+  }
   .logo-text2 span {
-    font-size: 18px;
+    font-size: 15px;
   }
 
 }
