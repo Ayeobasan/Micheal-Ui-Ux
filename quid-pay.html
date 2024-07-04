@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="medailScreen.css" />
     <link rel="icon" type="image/x-icon" href="./assets/Micheal.jpg" />
     <script src="https://cdn.tailwindcss.com"></script>
-
   </head>
 
   <body>
@@ -29,11 +28,11 @@
         >
           <img src="/assets/logo.svg" width="50px" alt="logo" />
           <p class="logo-text">
-            MICHAEL OLAMIDE/ <span class=" font-semibold">QUID</span>
+            MICHAEL OLAMIDE/ <span class="font-semibold">QUID</span>
           </p>
         </div>
-        <div id="mySidebar" class=" sidebar">
-          <div class="list-item space-y-4 ">
+        <div id="mySidebar" class="sidebar">
+          <div class="list-item space-y-4">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
               >&times;
             </a>
@@ -42,7 +41,10 @@
             <a href="https://behance.net/michaelolamide98">Icon Designs</a>
             <a href="https://behance.net/michaelolamide1">Design Shots</a>
             <a href="about.html">ABOUT ME</a>
-            <a href="https://drive.google.com/drive/u/0/folders/1zunWPs3GTtFS8ZXvOr9P66QtoEdhg4os">Resume</a>
+            <a
+              href="https://drive.google.com/drive/u/0/folders/1zunWPs3GTtFS8ZXvOr9P66QtoEdhg4os"
+              >Resume</a
+            >
           </div>
           <div class="menu-socials">
             <a
@@ -71,21 +73,30 @@
         </div>
       </div>
       <p class="logo-text2">
-        MICHAEL OLAMIDE/ <span class=" font-semibold">QUID</span>
+        MICHAEL OLAMIDE/ <span class="font-semibold">QUID</span>
       </p>
     </nav>
     <!-- body -->
     <main class="main">
       <div class="submain">
         <div class="quid-div">
-          <div class="quid-app">
+          <div class="quid-app text-white">
+            <img
+              class="w-[400px] xd:w-[500px] hidden md:block absolute left-0 bottom-0"
+              src="./image/hero-image/Group 34528.png"
+              alt=""
+            />
+            <img
+              class="w-[400px] xd:w-[500px] block md:hidden bottom-0 right-0 absolute"
+              src="./image/hero-image/Group 34530.png"
+              alt=""
+            />
             <div class="quid-flex">
               <div class="hero-text">
                 <div class="quid-heading">
                   <h1>QUIDPAY MOBILE APP</h1>
                   <p>
-                    Financial service to send, receive and pay for
-                    product-research
+                    FINANCIAL SERVICE TO SEND/RECEIVE MONEY, PAY FOR PRODUCTS
                   </p>
                 </div>
                 <div class="quid-details">
@@ -95,32 +106,59 @@
                   </div>
                   <div class="industry">
                     <p class="job">Industry</p>
-                    <p class="jd">E-Commerce</p>
+                    <p class="jd">Fintech</p>
                   </div>
                 </div>
               </div>
-              <div class="hero-img">
-                <img
-                  src="./assets/quid-pay/iPhone 13 Pro.png"
-                  alt=""
-                  width="350px"
-                />
-              </div>
+              <!-- <div class="hero-img">
+                <img src="./assets/project-header.png" alt="" width="350px" />
+              </div> -->
             </div>
+            <img
+              class="w-[400px] xd:w-[490px] hidden md:block absolute right-0 top-0 xd:bottom-0"
+              src="./image/hero-image/Group 34527.png"
+              alt=""
+            />
+            <img
+              class="w-[400px] xd:w-[490px] block md:hidden absolute top-0 m-auto left-0 right-0 justify-center"
+              src="./image/hero-image/Group 34529.png"
+              alt=""
+            />
           </div>
         </div>
 
         <!-- Body content -->
-        <section class="body-details">
-          <div class="project-body">
-            <h3>Introduction</h3>
-            <p>
-              QUIDPAY is an integrated payment platform/solution, that offers individual payment solutions that enable users (both existing and new) to pay, receive, and also pay for products while offering a safe and secure transaction environment.
-            </p>
-            <h3>My Role</h3>
-            <p>
-              As the Lead Product Designer on the team, I was responsible to oversee the entire process from conceptualisation, crafting effective design strategies to defining the visual direction of the products for both app and web experiences.
-            </p>
+        <section class="bg-[#10141B] mt-5 text-white">
+          <div class="w-full h-5 bg-red-500"></div>
+          <div class="body-details">
+            <div class="project-body">
+              <div class="Introduction">
+                <h3>Introduction</h3>
+                <p style="font-family: Red Hat Text, sans-serif">
+                  QUIDPAY is an integrated payment platform/solution, that
+                  offers individual payment solutions that enable users (both
+                  existing and new) to pay, receive, and also pay for products
+                  while offering a safe and secure transaction environment.
+                </p>
+              </div>
+              <div class="Introduction">
+                <h3>My Role</h3>
+                <p style="font-family: Red Hat Text, sans-serif">
+                  As the Lead Product Designer on the team, I was responsible
+                  for overseeing the entire process from conceptualization and
+                  crafting effective design strategies to defining the visual
+                  direction of the products for both app and web experiences.
+                </p>
+              </div>
+            </div>
+            <!-- <div class="project-body-img">
+              <img src="./assets/the-team.png" width="900px" alt="the team" />
+              <img
+                src="./assets/small-the-team.png"
+                width="900px"
+                alt="the team"
+              />
+            </div> -->
           </div>
         </section>
         <section class="design-process" style="margin-top: 20px">
@@ -145,7 +183,13 @@
           <div>
             <h3>Product Research & Discovery</h3>
             <p>
-              Payments generally have been a controversial topic. For QUIDPAY, the goal and focus were to establish an easy-to-pay medium between two different parties, which also includes both buyers and sellers on QUID. Extensively, more options and features like product payments, unique wallet accounts for sellers, and even sending and receiving money. This way, there is more established transparency in payments and ways to which money is moved between two parties.
+              Payments generally have been a controversial topic. For QUIDPAY,
+              the goal and focus were to establish an easy-to-pay medium between
+              two different parties, which also includes both buyers and sellers
+              on QUID. Extensively, more options and features like product
+              payments, unique wallet accounts for sellers, and even sending and
+              receiving money. This way, there is more established transparency
+              in payments and ways to which money is moved between two parties.
             </p>
           </div>
         </section>
@@ -153,14 +197,20 @@
           <div>
             <h3>DISCOVERY INSIGHTS</h3>
             <p>
-              Every user (buyer) has in mind to shop and buy items online, with the same feel or experiences compared to physically shopping from a supermarket or mart, while every seller also needs the right tool to list and “manage” their products and orders with the same experiences compared to physically selling their products in an office space, without glitches. Here is my summarised summary;
+              Every user (buyer) has in mind to shop and buy items online, with
+              the same feel or experiences compared to physically shopping from
+              a supermarket or mart, while every seller also needs the right
+              tool to list and “manage” their products and orders with the same
+              experiences compared to physically selling their products in an
+              office space, without glitches. Here is my summarised summary;
             </p>
           </div>
           <div class="row-cards">
             <div class="row-1">
               <div class="block1">
                 <p>
-                  Unique wallet and account number for users to safe keep their funds, and also to receive payments individually.
+                  Unique wallet and account number for users to safe keep their
+                  funds, and also to receive payments individually.
                 </p>
               </div>
               <div
@@ -168,13 +218,15 @@
                 style="background-color: #3c053f; border: 8px solid #77187d"
               >
                 <p>
-                  SSecure environment and process for payments/transactions, with support enabled incase of disputes and payment errors
+                  SSecure environment and process for payments/transactions,
+                  with support enabled incase of disputes and payment errors
                 </p>
               </div>
             </div>
             <div class="row-2">
               <p>
-                Transaction analytics and real time updates that enables user to keep track of their payment and transaction activities.
+                Transaction analytics and real time updates that enables user to
+                keep track of their payment and transaction activities.
               </p>
             </div>
             <div class="row-1">
@@ -183,7 +235,8 @@
                 style="background-color: #3f2a05; border: 8px solid #90651c"
               >
                 <p>
-                  Transaction analytics and real time updates that enables user to keep track of their payment and transaction activities.
+                  Transaction analytics and real time updates that enables user
+                  to keep track of their payment and transaction activities.
                   threats
                 </p>
               </div>
@@ -192,7 +245,8 @@
                 style="background-color: #05373f; border: 8px solid #0e7080"
               >
                 <p>
-                  In app transaction history for users data keeping to scale up efficiency and speed.
+                  In app transaction history for users data keeping to scale up
+                  efficiency and speed.
                 </p>
               </div>
             </div>
@@ -203,7 +257,8 @@
           <div>
             <h3 style="margin-top: 30px">Competitive Audit</h3>
             <p>
-              Took it to myself to look into some products that offers the same solutions as we are building to solve,
+              Took it to myself to look into some products that offers the same
+              solutions as we are building to solve,
             </p>
           </div>
           <div class="caudit-img">
@@ -226,11 +281,17 @@
               <div class="heading4">
                 <h4>Product Goals</h4>
                 <p>
-                  Took it to myself to look into some products that offers the same solutions as we are building to solve,
+                  Took it to myself to look into some products that offers the
+                  same solutions as we are building to solve,
                 </p>
                 <br />
                 <p>
-                  To make shopping experiences simple and seamless for buyers to find and purchase the products they need while providing sellers with tools to manage and promote their products. Qiid is also committed to providing a secure environment for all transactions, to build competency, trust, and seamless experiences for every user
+                  To make shopping experiences simple and seamless for buyers to
+                  find and purchase the products they need while providing
+                  sellers with tools to manage and promote their products. Qiid
+                  is also committed to providing a secure environment for all
+                  transactions, to build competency, trust, and seamless
+                  experiences for every user
                 </p>
               </div>
 
@@ -278,7 +339,8 @@
           <div class="ia-details">
             <h3>Information Architecture</h3>
             <p>
-              An end to end representation/workflow of the information architecture showing the walkthrough of one phase to other other
+              An end to end representation/workflow of the information
+              architecture showing the walkthrough of one phase to other other
             </p>
           </div>
           <div class="scroll-container">
@@ -296,7 +358,8 @@
             <div class="ia-details">
               <h3>Designs</h3>
               <p>
-                An end to end representation/workflow of the information architecture showing the walkthrough of one phase to other
+                An end to end representation/workflow of the information
+                architecture showing the walkthrough of one phase to other
               </p>
             </div>
             <!-- Registration -->
@@ -304,109 +367,57 @@
               <div class="on">
                 <h3>Registration & Sign In</h3>
                 <p>
-                  At these points, users are prompted to enter their personal information and set up a wallet profile, and security password to safeguard their account. Email Verification is done by sending a verification link to the user's email address
+                  At these points, users are prompted to enter their personal
+                  information and set up a wallet profile, and security password
+                  to safeguard their account. Email Verification is done by
+                  sending a verification link to the user's email address
                 </p>
               </div>
               <div class="scroll-container2">
                 <img
-                  src="./assets/quid-pay/registration/[Mockup] iPhone 50.png"
+                  src="./image/quid-pay/Frame 1000001503.png"
                   alt="mobile mockup"
                 />
                 <img
-                  src="./assets/quid-pay/registration/[Mockup] iPhone 51.png"
+                  src="./image/quid-pay/Frame 1000001503 (1).png"
                   alt="mobile mockup"
                 />
                 <img
-                  src="./assets/quid-pay/registration/[Mockup] iPhone 52.png"
+                  src="./image/quid-pay/Frame 1000001503 (2).png"
                   alt="mobile mockup"
                 />
                 <img
-                  src="./assets/quid-pay/registration/[Mockup] iPhone 53.png"
+                  src="./image/quid-pay/Frame 1000001503 (3).png"
                   alt="mobile mockup"
-                />
-                <img
-                  src="./assets/quid-pay/registration/[Mockup] iPhone 54.png"
-                  alt="mobile mockup"
-                />
-                <img
-                  src="./assets/quid-pay/registration/[Mockup] iPhone 55.png"
-                  alt="mobile mockup"
-                />
-                <img
-                  src="./assets/quid-pay/registration/[Mockup] iPhone 56.png"
-                  alt="mobile mockup"
-                />
-                <img
-                  src="./assets/quid-pay/registration/[Mockup] iPhone 57.png"
-                  alt="mobile mockup"
-                />
-                <img
-                  src="./assets/quid-pay/registration/[Mockup] iPhone 58.png"
-                  alt="mobile mockup"
-                />
-                <img
-                  src="./assets/quid-pay/registration/[Mockup] iPhone 59.png"
-                  alt=" mobile mockup"
                 />
               </div>
             </div>
+            <!-- verification -->
             <div class="onboarding">
               <div class="on">
                 <h3>KYC Verifications</h3>
                 <p>
-                  At these points, users are prompted to enter their personal information and set up a wallet profile, and security password to safeguard their account. Email Verification is done by sending a verification link to user's email address
+                  At these points, users are prompted to enter their personal
+                  information and set up a wallet profile, and security password
+                  to safeguard their account. Email Verification is done by
+                  sending a verification link to user's email address
                 </p>
               </div>
               <div class="scroll-container2">
                 <img
-                  src="./assets/quid-pay/kyc-verify/[Mockup] iPhone 38.png"
+                  src="./image/quid-pay/Frame 1000001503 (4).png"
                   alt="mobile mockup"
                 />
                 <img
-                  src="./assets/quid-pay/kyc-verify/[Mockup] iPhone 39.png"
+                  src="./image/quid-pay/Frame 1000001503 (5).png"
                   alt="mobile mockup"
                 />
                 <img
-                  src="./assets/quid-pay/kyc-verify/[Mockup] iPhone 40.png"
+                  src="./image/quid-pay/Frame 1000001503 (6).png"
                   alt="mobile mockup"
                 />
                 <img
-                  src="./assets/quid-pay/kyc-verify/[Mockup] iPhone 41.png"
-                  alt="mobile mockup"
-                />
-                <img
-                  src="./assets/quid-pay/kyc-verify/[Mockup] iPhone 42.png"
-                  alt="mobile mockup"
-                />
-              </div>
-            </div>
-            <!-- Navigation -->
-            <div class="onboarding">
-              <div class="on">
-                <h3>In App Navigations</h3>
-                <p>
-                  Navigations help to direct the steps of users and help them make choices easily without taking much time. For QUIDPAY, faster and quicker options ( Send money, All Request, etc.) were added for prompt and faster navigation as a part of the home screen features. For transparency and clarity, we wanted to keep users aware of the total amount held in different states (Pending and Disputes). Moving down, transaction history gives a record or history of all transaction activities on the app
-                </p>
-              </div>
-              <div class="scroll-container2">
-                <img
-                  src="./assets/quid-pay/navigation/[Mockup] iPhone 50.png"
-                  alt="mobile mockup"
-                />
-                <img
-                  src="./assets/quid-pay/navigation/[Mockup] iPhone 51.png"
-                  alt="mobile mockup"
-                />
-                <img
-                  src="./assets/quid-pay/navigation/[Mockup] iPhone 52.png"
-                  alt="mobile mockup"
-                />
-                <img
-                  src="./assets/quid-pay/navigation/[Mockup] iPhone 53.png"
-                  alt="mobile mockup"
-                />
-                <img
-                  src="./assets/quid-pay/navigation/[Mockup] iPhone 54.png"
+                  src="./image/quid-pay/Frame 1000001503 (7).png"
                   alt="mobile mockup"
                 />
               </div>
@@ -416,28 +427,31 @@
               <div class="on">
                 <h3>Send Money</h3>
                 <p>
-                  SSending money should be a way faster experience, with much more of lesser clicks for the users. For QUIDPAY, we are not limited to intra-transfers (QUIDPAY to QUIDPAY), but users can also make transfers or send money to other platforms, hence both email addresses or account numbers are an option on QUIDPAY. Email Address was introduced as a payment detail, because of users who might want to pay for products, which is another safer medium to secure a seller’s income.
+                  SSending money should be a way faster experience, with much
+                  more of lesser clicks for the users. For QUIDPAY, we are not
+                  limited to intra-transfers (QUIDPAY to QUIDPAY), but users can
+                  also make transfers or send money to other platforms, hence
+                  both email addresses or account numbers are an option on
+                  QUIDPAY. Email Address was introduced as a payment detail,
+                  because of users who might want to pay for products, which is
+                  another safer medium to secure a seller’s income.
                 </p>
               </div>
               <div class="scroll-container2">
                 <img
-                  src="./assets/quid-pay/send-money/[Mockup] iPhone 50.png"
+                  src="./image/quid-pay/Frame 1000001503 (8).png"
                   alt="mobile mockup"
                 />
                 <img
-                  src="./assets/quid-pay/send-money/[Mockup] iPhone 51.png"
+                  src="./image/quid-pay/Frame 1000001503 (9).png"
                   alt="mobile mockup"
                 />
                 <img
-                  src="./assets/quid-pay/send-money/[Mockup] iPhone 52.png"
+                  src="./image/quid-pay/Frame 1000001503 (10).png"
                   alt="mobile mockup"
                 />
                 <img
-                  src="./assets/quid-pay/send-money/[Mockup] iPhone 53.png"
-                  alt="mobile mockup"
-                />
-                <img
-                  src="./assets/quid-pay/send-money/[Mockup] iPhone 54.png"
+                  src="./image/quid-pay/Frame 1000001503 (11).png"
                   alt="mobile mockup"
                 />
               </div>
@@ -447,9 +461,16 @@
               <div class="on">
                 <h3>PRODUCT PAY</h3>
                 <p>
-                  Product details page is a critical part of an E-commerce experience. To help with users' decisions, key information and quality options for products were added to fast-track users' shopping experiences.
+                  Product details page is a critical part of an E-commerce
+                  experience. To help with users' decisions, key information and
+                  quality options for products were added to fast-track users'
+                  shopping experiences.
                   <br />
-                  Also, Key information that speaks distinctly to the product was added to give users more clarity and help in their decision-making when wanting to purchase an item. These include Product Features, Delivery and returns Info, Feedback and Ratings, and Seller Information.
+                  Also, Key information that speaks distinctly to the product
+                  was added to give users more clarity and help in their
+                  decision-making when wanting to purchase an item. These
+                  include Product Features, Delivery and returns Info, Feedback
+                  and Ratings, and Seller Information.
                   <strong>
                     Product Features, Delivery and returns Info, Feedbacks and
                     Ratings, and Seller Information.
@@ -459,19 +480,19 @@
               <div class="designs-img">
                 <div class="img-container">
                   <img
-                    src="./assets/quid-pay/product-pay/[Mockup] iPhone 50.png"
+                    src="./image/quid-pay/Frame 1000001503 (12).png"
                     alt="mobile mockup"
                   />
                   <img
-                    src="./assets/quid-pay/product-pay/[Mockup] iPhone 51.png"
+                    src="./image/quid-pay/Frame 1000001503 (13).png"
                     alt="mobile mockup"
                   />
                   <img
-                    src="./assets/quid-pay/product-pay/[Mockup] iPhone 52.png"
+                    src="./image/quid-pay/Frame 1000001503 (14).png"
                     alt="mobile mockup"
                   />
                   <img
-                    src="./assets/quid-pay/product-pay/[Mockup] iPhone 53.png"
+                    src="./image/quid-pay/Frame 1000001503 (15).png"
                     alt="mobile mockup"
                   />
                 </div>
@@ -483,25 +504,30 @@
               <div class="on">
                 <h3>Withdraw Money</h3>
                 <p>
-                  For users to be able to withdraw, a more secure and safer way of doing that has to be brought in in case of third-party hacks or scammers. To solve this, users have to enter the account information they would always withdraw their funds to, this way, the account information is saved to the system which will be used for subsequent withdrawals automatically.
+                  For users to be able to withdraw, a more secure and safer way
+                  of doing that has to be brought in in case of third-party
+                  hacks or scammers. To solve this, users have to enter the
+                  account information they would always withdraw their funds to,
+                  this way, the account information is saved to the system which
+                  will be used for subsequent withdrawals automatically.
                 </p>
               </div>
               <div class="designs-img">
                 <div class="img-container">
                   <img
-                    src="./assets/quid-pay/withdraw/[Mockup] iPhone 50.png"
+                    src="./image/quid-pay/Frame 1000001503 (16).png"
                     alt="mobile mockup"
                   />
                   <img
-                    src="./assets/quid-pay/withdraw/[Mockup] iPhone 51.png"
+                    src="./image/quid-pay/Frame 1000001503 (17).png"
                     alt="mobile mockup"
                   />
                   <img
-                    src="./assets/quid-pay/withdraw/[Mockup] iPhone 52.png"
+                    src="./image/quid-pay/Frame 1000001503 (18).png"
                     alt="mobile mockup"
                   />
                   <img
-                    src="./assets/quid-pay/withdraw/[Mockup] iPhone 53.png"
+                    src="./image/quid-pay/Frame 1000001503 (19).png"
                     alt="mobile mockup"
                   />
                 </div>
@@ -512,25 +538,30 @@
               <div class="on">
                 <h3>Add Money</h3>
                 <p>
-                  For users to be able to withdraw, a more secure and safer way of doing that has to be brought in in case of third-party hacks or scammers. To solve this, users have to enter the account information they would always withdraw their funds to, this way, the account information is saved to the system which will be used for subsequent withdrawals automatically.
+                  For users to be able to withdraw, a more secure and safer way
+                  of doing that has to be brought in in case of third-party
+                  hacks or scammers. To solve this, users have to enter the
+                  account information they would always withdraw their funds to,
+                  this way, the account information is saved to the system which
+                  will be used for subsequent withdrawals automatically.
                 </p>
               </div>
               <div class="designs-img">
                 <div class="img-container">
                   <img
-                    src="./assets/quid-pay/add-money/[Mockup] iPhone 52.png"
+                    src="./image/quid-pay/Frame 1000001503 (20).png"
                     alt="mobile mockup"
                   />
                   <img
-                    src="./assets/quid-pay/add-money/[Mockup] iPhone 51.png"
+                    src="./image/quid-pay/Frame 1000001503 (21).png"
                     alt="mobile mockup"
                   />
                   <img
-                    src="./assets/quid-pay/add-money/[Mockup] iPhone 50.png"
+                    src="./image/quid-pay/Frame 1000001503 (22).png"
                     alt="mobile mockup"
                   />
                   <img
-                    src="./assets/quid-pay/add-money/[Mockup] iPhone 53.png"
+                    src="./image/quid-pay/Frame 1000001503 (23).png"
                     alt="mobile mockup"
                   />
                 </div>
@@ -541,25 +572,30 @@
               <div class="on">
                 <h3>Online Payment (QR Code)</h3>
                 <p>
-                  Online payment is the future of financial technology and a more easier way to move money (pay, send, or withdraw). For QUIDPAY, the goal is to make the flow and experience more seamless and faster. For each user on QUIDPAy profile, the unique account number is attached to the bar code for the user to share, or copy.
+                  Online payment is the future of financial technology and a
+                  more easier way to move money (pay, send, or withdraw). For
+                  QUIDPAY, the goal is to make the flow and experience more
+                  seamless and faster. For each user on QUIDPAy profile, the
+                  unique account number is attached to the bar code for the user
+                  to share, or copy.
                 </p>
               </div>
               <div class="designs-img">
                 <div class="img-container">
                   <img
-                    src="./assets/quid-pay/online-payment/[Mockup] iPhone 50.png"
+                    src="./image/quid-pay/Frame 1000001503 (24).png"
                     alt="mobile mockup"
                   />
                   <img
-                    src="./assets/quid-pay/online-payment/[Mockup] iPhone 51.png"
+                    src="./image/quid-pay/Frame 1000001503 (25).png"
                     alt="mobile mockup"
                   />
                   <img
-                    src="./assets/quid-pay/online-payment/[Mockup] iPhone 52.png"
+                    src="./image/quid-pay/Frame 1000001503 (26).png"
                     alt="mobile mockup"
                   />
                   <img
-                    src="./assets/quid-pay/online-payment/[Mockup] iPhone 53.png"
+                    src="./image/quid-pay/Frame 1000001503 (27).png"
                     alt="mobile mockup"
                   />
                 </div>
@@ -570,21 +606,20 @@
               <div class="on">
                 <h3>Request Money</h3>
                 <p>
-                  In case of dispute ( as available online customer support), every user on QUIDPAY can log in and see the status of the disputes submitted. This helps the user track the progress of the dispute raised or submitted.
+                  In case of dispute ( as available online customer support),
+                  every user on QUIDPAY can log in and see the status of the
+                  disputes submitted. This helps the user track the progress of
+                  the dispute raised or submitted.
                 </p>
               </div>
               <div class="designs-img">
                 <div class="img-container">
                   <img
-                    src="./assets/quid-pay/request-money/[Mockup] iPhone 50.png"
+                    src="./image/quid-pay/Frame 1000001503 (28).png"
                     alt="mobile mockup"
                   />
                   <img
-                    src="./assets/quid-pay/request-money/[Mockup] iPhone 51.png"
-                    alt="mobile mockup"
-                  />
-                  <img
-                    src="./assets/quid-pay/request-money/[Mockup] iPhone 52.png"
+                    src="./image/quid-pay/Frame 1000001503 (29).png"
                     alt="mobile mockup"
                   />
                 </div>
@@ -595,25 +630,24 @@
               <div class="on">
                 <h3>Dispute</h3>
                 <p>
-                  In case of dispute ( as available online customer support), every user on QUIDPAY can log in and see the status of the disputes submitted. This helps the user track the progress of the dispute raised or submitted.
+                  In case of dispute ( as available online customer support),
+                  every user on QUIDPAY can log in and see the status of the
+                  disputes submitted. This helps the user track the progress of
+                  the dispute raised or submitted.
                 </p>
               </div>
               <div class="designs-img">
                 <div class="img-container">
                   <img
-                    src="./assets/quid-pay/dispute/[Mockup] iPhone 53.png"
+                    src="./image/quid-pay/Frame 1000001503 (30).png"
                     alt="mobile mockup"
                   />
                   <img
-                    src="./assets/quid-pay/dispute/[Mockup] iPhone 54.png"
+                    src="./image/quid-pay/Frame 1000001503 (31).png"
                     alt="mobile mockup"
                   />
                   <img
-                    src="./assets/quid-pay/dispute/[Mockup] iPhone 55.png"
-                    alt="mobile mockup"
-                  />
-                  <img
-                    src="./assets/quid-pay/dispute/[Mockup] iPhone 56.png"
+                    src="./image/quid-pay/Frame 1000001503 (32).png"
                     alt="mobile mockup"
                   />
                 </div>
