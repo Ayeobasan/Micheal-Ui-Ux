@@ -516,7 +516,7 @@
   }
   .quid-div .quid-app {
     padding: 10px 0px;
-    /* height: auto; */
+    height: 60vh;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -713,7 +713,7 @@
     font-size: 5rem;
   }
   .quid-div .quid-app {
-    /* height: auto; */
+    height: 55vh;
     align-items: center;
   }
   .quid-heading h1 {
